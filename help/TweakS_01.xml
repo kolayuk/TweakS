@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asptml SYSTEM "/epoc32/tools/cshlpcmp/dtd/asptml.dtd">
+<?xml:stylesheet href="/epoc32/tools/cshlpcmp/xsl/asptml.xsl" title="asptml" type="text/xsl"?>
+<asptml>
+<uid value="0x2002E906"/>
+ 
+<topic>
+<category>TweakS</category>
+<topictitle>About TweakS</topictitle>
+<synonyms>About TweakS</synonyms>
+<context contextUID="Main"/>
+<index>About TweakS</index>
+<p>
+<b>TweakS - Tweak your Smart!</b>
+<p>TweakS - application for system settings management.</p>
+<p>All of the TweakS plugin is to manage the phone settings, but most of them are not described in public documentation. 
+TweakS application is user interface for managing settings. All settings stored in central repository. </p>
+ 
+<p>Developers:</p>
+<p>     Kolay - application and user interface development.</p>
+<p>     CODeRUS - idea, gathering information and writing plugins.</p>
+ 
+<p>Official website: http://www.kolaysoft.ru/TweakS/</p>
+ 
+<p>For more information, select the list of topics and choose on the item you are interested in.</p>
+</p>
+</topic>
+ 
+<topic>
+<category>TweakS</category>
+<topictitle>TweakS - getting started</topictitle>
+<synonyms>Start using TweakS</synonyms>
+<context contextUID="StartPage"/>
+<index>Start using TweakS</index>
+<p>
+In the main view you can see a list of currently connected plugins. 
+Every plugin is a set of options, grouped by their meaning and purpose. 
+To manage plugins go to the Options - Manage Plugins (see the Manage Plugins). 
+If necessary, after selecting the plugin, the application will make changes to system for changing locked settings. In this case, the program will ask your permission to restart, after which the installed plugin will be fully functional. 
+TweakS will be frequently updated. To get the new version use the Update item from the Options - About. Also, you can turn autoupdate settings (see Settings).
+</p>
+</topic>
+ 
+<topic>
+<category>TweakS</category>
+<topictitle>Working with plugins</topictitle>
+<synonyms>Working with plugins</synonyms>
+<context contextUID="SettingList"/>
+<index>Working with plugins</index>
+<p>
+After selecting the plugin, you see a list of available options. 
+Note that when using the program will be accessible to only those parameters that are used in your phone. If you do not have any settings specified in the description of the plugin - it means they are not in your phone and do not work. If you see all the empty list, then this plugin is not compatible with your phone. 
+ 
+<p>Avialable options:</p>
+<p>     Information - shows additional description for selected item</p>
+<p>     Manual edit - allows you to enter a value manually in the form of text or numeric values.(WARNING!!! Only for advanced users!)</p>
+<p>     Reset value and Reset all values - reset value of selected item or of the whole plugin. Useful for restoring settings.</p>
+<p>     Clear value - sets value of selected item to empty (0 fot numbers, empty line for texts)</p>
+</p>
+</topic>
+ 
+<topic>
+<category>TweakS</category>
+<topictitle>Manage plugins</topictitle>
+<synonyms>Manage plugins</synonyms>
+<context contextUID="PluginManager"/>
+<index>Manage plugins</index>
+<p>
+Main options - Settings -> Manage plugins
+Manage Plugins allows you to enable, disable, remove plugins. It is also possible to install new plugin and update plugins via the Internet.
+Downloaded plugins cant be detached for installing to another phone.
+</p>
+</topic>
+
+<topic>
+<category>TweakS</category>
+<topictitle>Application settings</topictitle>
+<synonyms>Application settings</synonyms>
+<context contextUID="ApplicationSettings"/>
+<index>Application settings</index>
+<p>
+Application setting contains parameters for internet connection:
+<p>     Access point - access point, using for internet connection. If not choosen, application will ask point on next connection.</p>
+<p>     Automatic update - if selected application will connect to TweakS server and prompt if new version avialable.</p>
+</p>
+</topic>
+
+<topic>
+<category>TweakS</category>
+<topictitle>Frequency Asked Questions</topictitle>
+<synonyms>Frequency Asked Questions</synonyms>
+<context contextUID="FAQ"/>
+<index>Frequency Asked Questions</index>
+<p>
+Q: TweakS? What is it!?
+<p>A: TweakS is an applications to manage the settings of the central repository (10202be9).</p>
+ 
+<p>Q: How much ram uses the app? ? </p>
+<p>A: When using application - about 800 KB. After closing - 0 </p>
+
+<p>Q: Error in program! </p>
+<p>A: Error - it is when application crashed. If option don't work it is mean what your phone does not support it. </p>
+ 
+<p>Q: Plugin [xyx] dont work </p>
+<p>A: If option don't work it is mean what your phone does not support it. </p>
+ 
+<p>Q: If plugin dont work, this meas what application useless? </p>
+<p>A: Plugins do not have the "work" property. If after changing the value and reboot the changes in the work is not visible - means this parameter is not supported by your phone. </p>
+  
+<p>Q: How to undo changes? Removing the program will not have effect... </p>
+<p>A: You should use Reset option in the program menu.</p> 
+ 
+</p>
+</topic>
+ 
+<topic>
+<category>TweakS</category>
+<topictitle>Donate</topictitle>
+<synonyms>Donate</synonyms>
+<context contextUID="Donate"/>
+<index>Donate</index>
+<p>
+Donations to the development of the project be sent to:
+ 
+<p>WebMoney:</p>
+<p>     WMR R321502538916</p>
+<p>     WMZ Z208634876649</p>
+<p>     WMU U221598315212</p>
+<p>     WME E234802202031</p>
+<p>Yandex-Money:</p>
+<p>     41001686491180</p>
+
+</p>
+</topic>
+</asptml>

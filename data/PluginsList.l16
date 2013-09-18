@@ -1,0 +1,49 @@
+/*
+========================================================================
+ Name        : PluginsList.l16
+ Author      : Kolay
+ Copyright   : TweakS - it is a tweaker for Symbian OS
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Russian (16)
+CHARACTER_SET UTF8
+
+#define STR_PluginsListView_1 "Меню"
+#define STR_PluginsListView_2 "Выход"
+#define STR_PluginsListView_3 "TweakS"
+#define STR_PluginsListView_7 "Выход"
+#define STR_PluginsListView_4 "Выбор"
+#define STR_PluginsListView_8 "TweakS v.1.12 - О программе"
+#define STR_SMSWarningHeader "TweakS - Donate"
+#define STR_SMSWarningText "ВНИМАНИЕ! Будет отправлено SMS-сообщение на номер %S стоимостью %S.\nВаша страна: %S\nПродолжить?"
+#define STR_SMSSelectCountry "Выберите страну:"
+#define STR_SMSSelectOperator "Выберите оператора:"
+#define STR_Exporting "Подождите, идет экспорт..."
+#define STR_About "TweakS - Tweak your Smart\n Разработчики: Kolay&CODeRUS\n Support: kolayuk@mail.ru\n Web: http://kolaysoft.ru/TweakS/\nDonate:\n"
+#define STR_PluginsListView_10 "Плагинов не найдено!\n Установите плагины для использования программы."
+#define STR_PluginsListView_13 "У вас последняя версия. Переустановить последнюю версию с сервера?"
+#define STR_PluginsListView_14 "Доступно обновление. Загрузить?\n"
+#define STR_CBDialogTitle "Введите сообщение:"
+#define STR_ExportPlugins "Экспортировать плагины"
+#define STR_ExportAll "Экспортировать все"
+#define STR_MoreApps "Другие программы"
+#define STR_PluginsListView_15 "Идет загрузка обновления..."
+#define STR_PluginsListView_12 "Обновление"
+#define STR_PluginsListView_17 "Настройки"
+#define STR_PluginsListView_19 "Настройки"
+#define STR_PluginsListView_21 "Упр. плагинами"
+#define STR_PluginsListView_22 "О программе"
+#define STR_PluginsListView_24 "Справка"
+#define STR_PluginsListView_25 "Обновление"
+#define STR_PluginsListView_6 "О программе"
+#define STR_PluginsListView_9 "Написать разработчикам"
+#define STR_PluginsListView_5 "Поддержать проект"
+#define STR_PluginsListView_11 "Разблок. все"
+#define STR_PluginsListView_16 "Экспорт"

@@ -1,0 +1,30 @@
+/*
+========================================================================
+ Name        : AddingPlugin.l16
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Russian (16)
+CHARACTER_SET UTF8
+
+#define STR_AddingPluginView_2 "Назад"
+#define STR_AddingPluginView_3 "txt"
+#define STR_AddingPluginView_1 "Меню"
+#define STR_AddingPluginView_10 "Инфо о настройке"
+#define STR_AddingPluginView_11 "Назад"
+#define STR_AddingPluginView_7 "Добавить"
+#define STR_AddingPluginView_8 "Редактировать"
+#define STR_AddPluginNotSupported "Плагин не поддерживается"
+#define STR_AddPluginEmpty "Нет элементов"
+#define STR_AddShow "Показывать"
+#define STR_AddHide "Скрывать"
+#define STR_AddingPluginView_9 "Удалить [C]"
+#define STR_AddingPluginView_4 "Сбросить"

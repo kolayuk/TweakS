@@ -1,0 +1,177 @@
+Сравнение файлов ListOfSettings.cpp и LISTOFSETTINGS_OLD.CPP
+***** ListOfSettings.cpp
+#include <e32property.h>
+#include <logger.h>
+/**
+***** LISTOFSETTINGS_OLD.CPP
+#include <e32property.h>
+/**
+*****
+
+***** ListOfSettings.cpp
+        iListBox->UpdateScrollBarsL();
+        TBuf<255> txt;
+        CEikonEnv::Static()->ReadResource(txt,R_LISTBOX_EMPTY);
+        //iListBox->View()->SetListEmptyTextL(txt);
+        ActivateL();
+***** LISTOFSETTINGS_OLD.CPP
+        iListBox->UpdateScrollBarsL();
+        ActivateL();
+*****
+
+***** ListOfSettings.cpp
+        }
+void CListOfSettings::Update(TInt aIndex)
+        {
+***** LISTOFSETTINGS_OLD.CPP
+        }
+
+void CListOfSettings::Update()
+        {
+*****
+
+***** ListOfSettings.cpp
+        TInt d=0;
+        TInt currItem=-1;
+        CDesCArray* itemArray = static_cast< CDesCArray* > ( iListBox->Model()->ItemTextArray() );
+        if (ListBox()->Model()->NumberOfItems()!=0)
+                {
+                        currItem=ListBox()->CurrentItemIndex();
+                        itemArray->Reset();
+                }
+        for (i=0;i<((CListOfSettingsView*)iCommandObserver)->iSettingsData->Count();i++)
+***** LISTOFSETTINGS_OLD.CPP
+        TInt d=0;
+        TInt currItem=0;
+        CDesCArray* itemArray = static_cast< CDesCArray* > ( iListBox->Model()->ItemTextArray() );
+        if (itemArray->Count()!=0){currItem=ListBox()->CurrentItemIndex(); itemArray->Delete(0,itemArray->Count());}
+        
+        for (i=0;i<((CListOfSettingsView*)iCommandObserver)->iSettingsData->Count();i++)
+*****
+
+***** ListOfSettings.cpp
+                        {
+                        if (Data.iViewType!=EViewUidNum&&Data.iViewType!=EViewBitMask)
+                        {
+***** LISTOFSETTINGS_OLD.CPP
+                        {
+                        if (Data.iViewType!=EViewUidNum)
+                        {
+*****
+
+***** ListOfSettings.cpp
+                        }
+                        else if (Data.iViewType==EViewUidNum) //UidNum
+                                {
+***** LISTOFSETTINGS_OLD.CPP
+                        }
+                        else //UidNum
+                                {
+*****
+
+***** ListOfSettings.cpp
+                                }
+                        else if (Data.iViewType==EViewBitMask)
+                                {
+                                CEikonEnv::Static()->ReadResource(TDesValue,R_BINARY_ITEM_TXT);
+                                }
+                        }
+***** LISTOFSETTINGS_OLD.CPP
+                                }
+                        }
+*****
+
+***** ListOfSettings.cpp
+                }
+        if (currItem!=-1) {ListBox()->SetCurrentItemIndexAndDraw(currItem);}
+        if (iTop>=0){ListBox()->SetTopItemIndex(iTop);}
+        ListBox()->DrawNow();
+        }
+***** LISTOFSETTINGS_OLD.CPP
+                }
+        if (currItem!=0) {ListBox()->SetCurrentItemIndexAndDraw(currItem);}
+        }
+*****
+
+***** ListOfSettings.cpp
+        {
+        iListBox = new ( ELeave ) CAknSettingStyleListBox;
+        iListBox->SetContainerWindowL( *this );
+***** LISTOFSETTINGS_OLD.CPP
+        {
+        iListBox = new ( ELeave ) CAknDoubleStyleListBox;
+        iListBox->SetContainerWindowL( *this );
+*****
+
+***** ListOfSettings.cpp
+                        &CListOfSettings::HandleListBoxEnterKeyPressedL );
+#ifdef _DEBUG
+        AddListBoxEventHandlerL( 
+***** LISTOFSETTINGS_OLD.CPP
+                        &CListOfSettings::HandleListBoxEnterKeyPressedL );
+        AddListBoxEventHandlerL( 
+*****
+
+***** ListOfSettings.cpp
+                        &CListOfSettings::HandleListBoxItemClickedL );
+#else
+        AddListBoxEventHandlerL( 
+                        iListBox, 
+                        EEventItemSingleClicked, 
+                        &CListOfSettings::HandleListBoxItemClickedL );
+#endif
+        
+***** LISTOFSETTINGS_OLD.CPP
+                        &CListOfSettings::HandleListBoxItemClickedL );
+        
+*****
+
+***** ListOfSettings.cpp
+ */
+CAknSettingStyleListBox* CListOfSettings::ListBox()
+        {
+***** LISTOFSETTINGS_OLD.CPP
+ */
+CAknDoubleStyleListBox* CListOfSettings::ListBox()
+        {
+*****
+
+***** ListOfSettings.cpp
+        {
+        _LIT ( KStringHeader, "\t%S\t\t%S" );
+        
+***** LISTOFSETTINGS_OLD.CPP
+        {
+        _LIT ( KStringHeader, "\t%S\t%S" );
+        
+*****
+
+***** ListOfSettings.cpp
+        {
+        iTop=ListBox()->TopItemIndex();
+        _LOGDATA(_L("iTop: %d"),iTop);
+        ((CListOfSettingsView*)iCommandObserver)->HandleLBEvent();              
+***** LISTOFSETTINGS_OLD.CPP
+        {
+        ((CListOfSettingsView*)iCommandObserver)->HandleLBEvent();              
+*****
+
+***** ListOfSettings.cpp
+        {
+        iTop=ListBox()->TopItemIndex();
+        _LOGDATA(_L("iTop: %d"),iTop);
+        ((CListOfSettingsView*)iCommandObserver)->HandleLBEvent();      
+***** LISTOFSETTINGS_OLD.CPP
+        {
+        ((CListOfSettingsView*)iCommandObserver)->HandleLBEvent();      
+*****
+
+***** ListOfSettings.cpp
+        {
+        }
+***** LISTOFSETTINGS_OLD.CPP
+        {
+        ((CListOfSettingsView*)iCommandObserver)->HandleUpDownLBEvent();
+        }
+*****
+

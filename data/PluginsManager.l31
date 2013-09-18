@@ -1,0 +1,31 @@
+/*
+========================================================================
+ Name        : PluginsManager.l31
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+Translate  : 南浦月(Nanpuyue)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Chinese  (31)
+CHARACTER_SET UTF8
+
+#define STR_PluginsManagerView_3 "管理插件"
+#define STR_PluginsManagerView_1 "选项"
+#define STR_PluginsManagerView_2 "返回"
+#define STR_PluginsManagerView_10 "启用"
+#define STR_PluginsManagerView_11 "删除"
+#define STR_PluginsManagerView_12 "安装"
+#define STR_PluginsManagerView_14 "启用"
+#define STR_PluginsManagerView_15 "禁用"
+#define STR_PluginsManagerView_16 "未安装"
+#define STR_PluginsManagerView_17 "可更新"
+#define STR_PluginsManagerView_18 "插件下载中…"
+#define STR_PluginsManagerView_9 "禁用"
+#define STR_PluginsManagerView_4 "详情"

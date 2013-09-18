@@ -1,0 +1,26 @@
+/*
+========================================================================
+ Name        : PluginsManager.loc
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+#ifdef LANGUAGE_16
+#include "PluginsManager.l16"
+#endif
+#ifdef LANGUAGE_01
+#include "PluginsManager.l01"
+#endif
+#ifdef LANGUAGE_26
+#include "PluginsManager.l26"
+#endif
+#ifdef LANGUAGE_31
+#include "PluginsManager.l31"
+#endif

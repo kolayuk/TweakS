@@ -1,0 +1,35 @@
+/*
+========================================================================
+ Name        : ListOfSettings.l16
+ Author      : Kolay
+ Copyright   : Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Russian (16)
+
+#define STR_ListOfSettingsView_2 "Назад"
+#define STR_ListOfSettingsView_3 "Настройки"
+#define STR_ListOfSettingsView_1 "Меню"
+#define STR_ListOfSettingsView_4 "Изменить"
+#define STR_ListOfSettingsView_5 "Инфо о настройке"
+#define STR_BinChange "Изменить"
+#define STR_ListboxPromt "Нет доступных настроек\nЭтот плагин не поддерживается вашим аппаратом"
+#define STR_ListOfSettingsView_6 "Назад"
+#define STR_ListOfSettingsView_7 "Очистить"
+#define STR_ListOfSettingsView_8 "Сбросить на стандарт"
+#define STR_DelCRE				 "Удалять CRE файлы?"
+#define STR_AllToDefault "Сбросить все"
+#define STR_ListOfSettingsView_9 "Перезагрузить?"
+#define STR_ListOfSettingsView_10 "Настройки были разблокированы, для продолжения работы необходимо перезагрузить смартфон. Перезагрузить?"
+#define STR_ListOfSettingsView_11 "[Выбрать текущую папку]"
+#define STR_ListOfSettingsView_12 "Ввести вручную"
+#define STR_ListOfSettingsView_13 "Файл"
+#define STR_ListOfSettingsView_15 "Недоступно"
+#define STR_ListOfSettingsView_14 "Папка"
+#define STR_ListOfSettingsView_16 "Данный плагин не работает. Нужно перезагрузить телефон или переустановить плагин."

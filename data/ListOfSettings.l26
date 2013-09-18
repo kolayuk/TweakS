@@ -1,0 +1,36 @@
+/*
+========================================================================
+ Name        : ListOfSettings.l16
+ Author      : Kolay
+ Copyright   : Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Russian (16)
+CHARACTER_SET UTF8
+
+#define STR_ListOfSettingsView_2 "Späť"
+#define STR_ListOfSettingsView_3 "Nastavenia"
+#define STR_ListOfSettingsView_1 "Voľby"
+#define STR_ListOfSettingsView_4 "Zmeniť"
+#define STR_ListOfSettingsView_5 "Informácie"
+#define STR_BinChange "Zmeniť"
+#define STR_ListboxPromt "Prázdne\nTelefón nepodporuje tento doplnok"
+#define STR_ListOfSettingsView_6 "Späť"
+#define STR_ListOfSettingsView_7 "Vymazať hodnotu"
+#define STR_ListOfSettingsView_8 "Resetovať"
+#define STR_AllToDefault "Resetovať vš. hodnoty" 
+#define STR_DelCRE		"Delete CRE files?"
+#define STR_ListOfSettingsView_9 "Reštartovať telefón?"
+#define STR_ListOfSettingsView_10 "Nastavenia odomknuté, pre použitie doplnku musíte reštartovať telefón. Reštartovať?"
+#define STR_ListOfSettingsView_11 "[Aktuálna zložka]"
+#define STR_ListOfSettingsView_12 "Zadať ručne"
+#define STR_ListOfSettingsView_13 "Súbor"
+#define STR_ListOfSettingsView_15 "Nie je k dispozícii"
+#define STR_ListOfSettingsView_14 "Zložka"
+#define STR_ListOfSettingsView_16 "Chyba doplnku. Doplnok poškodený alebo zle stiahnutý."

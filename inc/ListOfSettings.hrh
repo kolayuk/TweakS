@@ -1,0 +1,30 @@
+/*
+========================================================================
+ Name        : ListOfSettings.hrh
+ Author      : Kolay
+ Copyright   : Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+#include <avkon.hrh>
+enum TListOfSettingsViewCommands
+	{
+	EListOfSettingsView_MenuItemCommand = 0x6000,
+	EListOfSettingsView_MenuItem1Command,
+	EListOfSettingsView_MenuItem2Command,
+	EListOfSettingsView_MenuItem3Command,
+	EListOfSettingsView_MenuItem4Command,
+	EListOfSettingsView_MenuItem5Command
+	};
+enum TControlID
+	{
+	ESlider=0x500
+	};
+enum {KMyCustomCtl = KAknCtLastControlId };
+enum {KMyCustomCtlId = 0x503 };
+enum {EAllToDefault=0x5000};

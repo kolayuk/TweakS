@@ -1,0 +1,33 @@
+/*
+========================================================================
+ Name        : SettingList.l16
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Russian (16)
+CHARACTER_SET UTF8
+
+#define STR_SettingListView_1 "Меню"
+#define STR_SettingListView_2 "Назад"
+#define STR_SettingListView_3 "Настройки"
+#define STR_SettingListView_4 "Изменить"
+#define STR_SettingListView_5 "Сохранить"
+#define STR_SettingListView_6 "Назад"
+#define STR_SettingListView_7 "Точка доступа"
+#define STR_SettingListView_8 "<Не выбрано>"
+#define STR_SettingListView_9 "TweakS - первый запуск. Для доступа к настройкам нужно перезагрузить смартфон. Перезагрузить сейчас?"
+#define STR_SettingListView_10 "Установлен новый плагин."
+#define STR_SettingListView_11 "Автообновление"
+#define STR_SettingListView_13 "Выключено"
+#define STR_SettingListView_14 "Выберите точку доступа"
+#define STR_SettingListView_15 "Сохранить изменения настроек?"
+#define STR_SettingListView_12 "Включено"
+#define STR_SettingListView_17 "Назад"

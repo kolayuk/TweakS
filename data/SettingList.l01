@@ -1,0 +1,33 @@
+/*
+========================================================================
+ Name        : SettingList.l16
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Russian (16)
+CHARACTER_SET UTF8
+
+#define STR_SettingListView_1 "Options"
+#define STR_SettingListView_2 "Back"
+#define STR_SettingListView_3 "Settings"
+#define STR_SettingListView_4 "Change"
+#define STR_SettingListView_5 "Save"
+#define STR_SettingListView_6 "Back"
+#define STR_SettingListView_7 "Access point"
+#define STR_SettingListView_8 "<Ask user>"
+#define STR_SettingListView_9 "TweakS - first launch. For using all features you need to reboot phone. Reboot phone now?"
+#define STR_SettingListView_10 "New plugin installed."
+#define STR_SettingListView_11 "Automatic update"
+#define STR_SettingListView_13 "Disabled"
+#define STR_SettingListView_14 "Select access point"
+#define STR_SettingListView_15 "Save settings changes?"
+#define STR_SettingListView_12 "Enabled"
+#define STR_SettingListView_17 "Back"

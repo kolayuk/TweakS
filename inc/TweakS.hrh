@@ -1,0 +1,22 @@
+/*
+========================================================================
+ Name        : TweakS.hrh
+ Author      : Kolay
+ Copyright   : TweakS - it is a tweaker for Symbian OS
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+enum TTweakSViewUids
+	{
+	EPluginsListViewId = 1,
+	EListOfSettingsViewId,
+	EPluginsManagerViewId,
+	ESettingListViewId,
+	EAddingPluginViewId
+	};

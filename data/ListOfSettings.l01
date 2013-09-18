@@ -1,0 +1,36 @@
+/*
+========================================================================
+ Name        : ListOfSettings.l16
+ Author      : Kolay
+ Copyright   : Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Russian (16)
+CHARACTER_SET UTF8
+
+#define STR_ListOfSettingsView_2 "Back"
+#define STR_ListOfSettingsView_3 "Settings"
+#define STR_ListOfSettingsView_1 "Ottions"
+#define STR_ListOfSettingsView_4 "Change"
+#define STR_ListOfSettingsView_5 "Information"
+#define STR_BinChange "Change"
+#define STR_ListboxPromt "Empty\nPhone don\'t support this plugin"
+#define STR_ListOfSettingsView_6 "Back"
+#define STR_ListOfSettingsView_7 "Clear value"
+#define STR_ListOfSettingsView_8 "Reset value"
+#define STR_AllToDefault "Reset all values" 
+#define STR_DelCRE		"Delete CRE files?"
+#define STR_ListOfSettingsView_9 "Reboot phone?"
+#define STR_ListOfSettingsView_10 "Settings unlocked, for continue using this plugin you must reboot phone. Reboot phone now?"
+#define STR_ListOfSettingsView_11 "[Current dir]"
+#define STR_ListOfSettingsView_12 "Manual edit"
+#define STR_ListOfSettingsView_13 "File"
+#define STR_ListOfSettingsView_15 "Unavialable"
+#define STR_ListOfSettingsView_14 "Folder"
+#define STR_ListOfSettingsView_16 "Plugin error. Maybe wrong plugin or downloading error."

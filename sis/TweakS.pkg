@@ -1,0 +1,84 @@
+; TweakS.pkg
+; This is an auto-generated PKG file by Carbide.
+; This file uses variables specific to Carbide builds that will not work
+; on command-line builds. If you want to use this generated PKG file from the
+; command-line tools you will need to modify the variables with the appropriate
+; values: $(EPOCROOT), $(PLATFORM), $(TARGET)
+; Also, the resource file entries should be changed to match the language
+; used in the build. For example, if building for LANGUAGE_01, change the file
+; extensions .rsc to .r01.
+;
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"TweakS"},(0xE9066A16),1,12,0
+
+;Localised Vendor name
+%{"Kolay&CODeRUS"}
+
+;Unique Vendor name
+:"Kolay&CODeRUS"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+[0x1028315F], 0, 0, 0, {"Series60ProductID"}
+[0x20022E6D], 0, 0, 0, {"Series60ProductID"}
+
+;Files to install
+;You should change the source paths to match that of your environment
+;<source> <destination>
+IF EXISTS("Z:\System\Install\Series60v5.0.sis")
+"D:\Symbian\9.4\S60_5th_Edition_SDK_v1.0\epoc32\release\$(PLATFORM)\$(TARGET)\TweakS.exe"		-"!:\sys\bin\TweakS.exe"
+ELSE
+"D:\Symbian\9.1\S60_3rd\Epoc32\release\$(PLATFORM)\$(TARGET)\TweakS.exe"		-"!:\sys\bin\TweakS.exe"
+ENDIF
+
+IF EXISTS("Z:\System\Install\Series60v5.0.sis")
+"D:\Symbian\9.4\S60_5th_Edition_SDK_v1.0\Epoc32\data\z\resource\apps\TweakS.r16"		-"!:\resource\apps\TweakS.r16"
+ELSE
+"D:\Symbian\9.1\S60_3rd\Epoc32\data\z\resource\apps\TweakS.r16"		-"!:\resource\apps\TweakS.r16"
+ENDIF
+IF EXISTS("Z:\System\Install\Series60v5.0.sis")
+"D:\Symbian\9.4\S60_5th_Edition_SDK_v1.0\Epoc32\data\z\resource\apps\TweakS.r01"		-"!:\resource\apps\TweakS.r01"
+ELSE
+"D:\Symbian\9.1\S60_3rd\Epoc32\data\z\resource\apps\TweakS.r01"		-"!:\resource\apps\TweakS.r01"
+ENDIF
+IF EXISTS("Z:\System\Install\Series60v5.0.sis")
+"D:\Symbian\9.4\S60_5th_Edition_SDK_v1.0\Epoc32\data\z\resource\apps\TweakS.r26"		-"!:\resource\apps\TweakS.r26"
+ELSE
+"D:\Symbian\9.1\S60_3rd\Epoc32\data\z\resource\apps\TweakS.r26"		-"!:\resource\apps\TweakS.r26"
+ENDIF
+IF EXISTS("Z:\System\Install\Series60v5.0.sis")
+"D:\Symbian\9.4\S60_5th_Edition_SDK_v1.0\Epoc32\data\z\resource\apps\TweakS.r31"		-"!:\resource\apps\TweakS.r31"
+ELSE
+"D:\Symbian\9.1\S60_3rd\Epoc32\data\z\resource\apps\TweakS.r31"		-"!:\resource\apps\TweakS.r31"
+ENDIF
+
+"D:\Symbian\9.1\S60_3rd\Epoc32\data\z\resource\apps\TweakS_aif.mif" -"!:\resource\apps\TweakS_aif.mif"
+
+"..\help\TweakS.h16" -"!:\resource\help\TweakS.h16"
+"$(EPOCROOT)Epoc32\data\z\private\10003a3f\apps\TweakS_reg.r16"	-"!:\private\10003a3f\import\apps\TweakS_reg.r16"
+
+"..\help\TweakS.h01" -"!:\resource\help\TweakS.h01"
+"$(EPOCROOT)Epoc32\data\z\private\10003a3f\apps\TweakS_reg.r01"	-"!:\private\10003a3f\import\apps\TweakS_reg.r01"
+
+"..\help\TweakS.h26" -"!:\resource\help\TweakS.h26"
+"$(EPOCROOT)Epoc32\data\z\private\10003a3f\apps\TweakS_reg.r26"	-"!:\private\10003a3f\import\apps\TweakS_reg.r26"
+
+"..\help\TweakS.h01" -"!:\resource\help\TweakS.h31"
+"$(EPOCROOT)Epoc32\data\z\private\10003a3f\apps\TweakS_reg.r31"	-"!:\private\10003a3f\import\apps\TweakS_reg.r31"
+
+"$(EPOCROOT)Epoc32\data\z\resource\plugins\TweakSRecognizer.RSC"		-"!:\resource\plugins\TweakSRecognizer.RSC"
+"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\TweakSRecognizer.dll"		-"!:\sys\bin\TweakSRecognizer.dll"
+
+; RETURN THE UNLOCK!!!!
+IF PACKAGE(0xE9066A16)
+;Nothing
+ELSE
+"..\data\e9066a16.cre"-"C:\System\Apps\TweakS\Plugins\e9066a16.cre"
+ENDIF
+
+; Add any installation notes if applicable
+"TweakS.txt"					  -"", FT
+

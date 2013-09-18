@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<!DOCTYPE cshlp SYSTEM "file:///D:/Symbian/9.1/S60_3rd/epoc32/tools/cshlpcmp/dtd/cshlp.dtd">
+<?xml:stylesheet href="file:///D:/Symbian/9.1/S60_3rd/epoc32/tools/cshlpcmp/xsl/cshlp.xsl" title="cshlp" type="text/xsl"?>
+<cshlp helpfileUID="537061638">
+
+
+ 
+<topic topicID="1" categoryUID="537061638">
+<category>TweakS</category>
+<topictitle>O TweakS</topictitle>
+<synonyms>O TweakS</synonyms>
+
+
+<p font="sansserif" style="normal" size="10" color="foreground" justify="left" spacing="10" before="5" after="0" left="0" right="0">
+<b>TweakS - Vyla&#271;te svoj Smrtphone!</b>
+<p>TweakS - aplik&#225;cia pre spr&#225;vu syst&#233;mov&#253;ch nastaven&#237;.</p>
+<p>V&#353;etky doplnky aplik&#225;cie TweakS s&#250; pre spr&#225;vu nastaven&#237; telef&#243;nu, aj ke&#271; va&#269;&#353;ina z nich nie je v dokument&#225;cii. 
+Aplik&#225;cia TweakS je u&#382;ivate&#318;sk&#233; rozhranie pre spr&#225;vu doplnkov. V&#353;etky nastavenia s&#250; ulo&#382;en&#233; v "central repository". Private zlo&#382;ka (10202be9). </p>
+ 
+<p>V&#253;voj&#225;ri:</p>
+<p>     Kolay - aplik&#225;cia a u&#382;ivate&#318;sk&#233; rozhranie.</p>
+<p>     CODeRUS - n&#225;pad, zbieranie inform&#225;cii a p&#237;sanie doplnkov.</p>
+ 
+<p>Ofici&#225;lny WEB: http://www.kolaysoft.ru/TweakS/</p>
+ 
+<p>Pre viac inform&#225;cii, si vyberte polo&#382;ku t&#233;my ktor&#225; V&#225;s zauj&#237;ma.</p>
+</p>
+</topic>
+ 
+<topic topicID="2" categoryUID="537061638">
+<category>TweakS</category>
+<topictitle>TweakS - za&#269;&#237;name</topictitle>
+<synonyms>Pou&#382;&#237;vanie TweakS</synonyms>
+
+
+<p font="sansserif" style="normal" size="10" color="foreground" justify="left" spacing="10" before="5" after="0" left="0" right="0">
+V hlavnom okne aplik&#225;cie vid&#237;te zoznam akt&#237;vnych/nain&#353;talovan&#253;ch doplnkov. 
+Ka&#382;d&#253; doplnok je s&#250;bor mo&#382;nost&#237; nastavenia, usporiadan&#237; pod&#318;a zmyslu a &#250;&#269;elu. 
+Pre spr&#225;vu doplnkov cho&#271;te do Vo&#318;by - Spr&#225;vca doplnkov (pozri Spr&#225;vcu doplnkov). 
+Ak je nutn&#233;, po v&#253;bere doplnku, urobi&#357; zmeny a&#382; po re&#353;tarte telef&#243;nu, aplik&#225;cia V&#225;s na to upozorn&#237;. 
+TweakS bude &#269;asto aktualizovan&#253;. Pre z&#237;skanie najnov&#353;ej verzie, pou&#382;ite polo&#382;ku Aktualiz&#225;cia. Cho&#271;te do Vo&#318;by - O Aplik&#225;cii. Tie&#382;, m&#244;&#382;te pou&#382;i&#357; Auto aktualiz&#225;ciu (pozri Nastavenia).
+</p>
+</topic>
+ 
+<topic topicID="3" categoryUID="537061638">
+<category>TweakS</category>
+<topictitle>Pr&#225;ca s doplnkami</topictitle>
+<synonyms>Pr&#225;ca s doplnkami</synonyms>
+
+
+<p font="sansserif" style="normal" size="10" color="foreground" justify="left" spacing="10" before="5" after="0" left="0" right="0">
+Po v&#253;bere doplnku, sa V&#225;m zobrazia mo&#382;nosti nastavenia. 
+Pozn&#225;mka: Pri pou&#382;&#237;van&#237; doplnku budete ma&#357; k dispoz&#237;cii len nastavenia ktor&#233; podporuje V&#225;&#353; telef&#243;n. Ak nevid&#237;te &#382;iadne nastavenia pou&#382;&#237;van&#233; doplnkom - znamen&#225; to, &#382;e ich telef&#243;n nepodporuje. Ak je zoznam nastaven&#237; doplnku pr&#225;zdny, potom nie je doplnok kompatibiln&#253; s Va&#353;im telef&#243;nom. 
+ 
+<p>Dostupn&#233; mo&#382;nosti:</p>
+<p>     Inform&#225;cie - zobrazenie dodato&#269;n&#253;ch inform&#225;cii doplnku</p>
+<p>     Zada&#357; ru&#269;ne - Umo&#382;&#328;uje zada&#357; hodnoty ru&#269;ne, formou textu alebo &#269;&#237;seln&#253;ch hodn&#244;t.(UPOZORNENIE!!! Len pre pokro&#269;il&#253;ch u&#382;ivate&#318;ov!)</p>
+<p>     Resetova&#357; a Resetova&#357; v&#353;. hodnoty - resetovanie zvolenej polo&#382;ky alebo cel&#233;ho doplnku. Pou&#382;ite&#318;n&#233; pre obnovenie p&#244;vodn&#253;ch nastaven&#237;.</p>
+<p>     Vymaza&#357; hodnotu - nastav&#237; hodnotu vybranej polo&#382;ky na pr&#225;zdnu (0 pre &#269;&#237;sla, pr&#225;zdny riadok pre text)</p>
+</p>
+</topic>
+ 
+<topic topicID="4" categoryUID="537061638">
+<category>TweakS</category>
+<topictitle>Spr&#225;vca doplnkov</topictitle>
+<synonyms>Spr&#225;vca doplnkov</synonyms>
+
+
+<p font="sansserif" style="normal" size="10" color="foreground" justify="left" spacing="10" before="5" after="0" left="0" right="0">
+Hlavn&#233; Vo&#318;by - Nastavenia -> Spr&#225;vca doplnkov
+Spr&#225;vca doplnkov umo&#382;&#328;uje aktivovanie, deaktivovanie a odstr&#225;nenie doplnkov. Nov&#233; doplnky je mo&#382;n&#233; in&#353;talova&#357;/aktualizova&#357; aj z Internetu.
+Stiahnut&#233; doplnky nem&#244;&#382;u by&#357; in&#353;talovan&#233; do in&#253;ch telef&#243;nov.
+</p>
+</topic>
+
+<topic topicID="5" categoryUID="537061638">
+<category>TweakS</category>
+<topictitle>Nastavenia</topictitle>
+<synonyms>Nastavenia</synonyms>
+
+
+<p font="sansserif" style="normal" size="10" color="foreground" justify="left" spacing="10" before="5" after="0" left="0" right="0">
+Nastavenia aplik&#225;cie obsahuj&#250; mo&#382;nosti pripojenia k Internetu:
+<p>     Pr&#237;stupov&#253; bod - pr&#237;stupov&#253; bod, pou&#382;&#237;van&#253; pre pripojenie k Internetu. Ak ho nenastav&#237;te, aplik&#225;cia sa V&#225;s bude p&#253;ta&#357; na jeho v&#253;ber pred ka&#382;d&#253;m pripojen&#237;m.</p>
+<p>     Auto aktualiz&#225;cia - ak je zapnut&#225;, aplik&#225;cia sa po spusten&#237; pripoj&#237; na TweakS server a ozn&#225;mi V&#225;m ak je nov&#225; verzia.</p>
+</p>
+</topic>
+
+<topic topicID="6" categoryUID="537061638">
+<category>TweakS</category>
+<topictitle>&#268;asto kladen&#233; ot&#225;zky FAQ</topictitle>
+<synonyms>&#268;asto kladen&#233; ot&#225;zky FAQ</synonyms>
+
+
+<p font="sansserif" style="normal" size="10" color="foreground" justify="left" spacing="10" before="5" after="0" left="0" right="0">
+Q: TweakS? &#268;o je to!?
+<p>A: TweakS je aplik&#225;cia pre spr&#225;vu nastaven&#237; v "central repository" (10202be9).</p>
+ 
+<p>Q: Ko&#318;ko pam&#228;te ram vyu&#382;&#237;va?</p>
+<p>A: Pri pou&#382;&#237;van&#237; - okolo 800 KB. Po zatvoren&#237; - 0 </p>
+
+<p>Q: Chyba v programe! </p>
+<p>A: Chyba - je ke&#271; aplik&#225;cia "spadne". Ak vo&#318;by nefunguj&#250;, znamen&#225; to, &#382;e ich telef&#243;n nepodporuje. </p>
+ 
+<p>Q: Doplnok [xyx] nefunguje </p>
+<p>A: Ak vo&#318;by nefunguj&#250;, znamen&#225; to, &#382;e ich telef&#243;n nepodporuje. </p>
+ 
+<p>Q: Ak nefunguje doplnok, znamen&#225; to, &#382;e je aplik&#225;cia nepou&#382;ite&#318;n&#225;? </p>
+<p>A: Doplnky nemusia "v&#253;lu&#269;ne" fungova&#357;. Ak po zmene hodn&#244;t a re&#353;tartovan&#237; nie je vidie&#357; &#382;iadne zmeny - znamen&#225; to, &#382;e toto nastavenie nie je Va&#353;im telef&#243;nom podporovan&#233;. </p>
+  
+<p>Q: Ako vr&#225;ti&#357; zmeny? Odstr&#225;nenie aplik&#225;cie nem&#225; &#382;iadny efekt... </p>
+<p>A: Mali by ste pou&#382;i&#357; funkciu Resetova&#357; a Resetova&#357; v&#353;. hodnoty.</p> 
+ 
+</p>
+</topic>
+ 
+<topic topicID="7" categoryUID="537061638">
+<category>TweakS</category>
+<topictitle>Podpora v&#253;voja</topictitle>
+<synonyms>Podpora v&#253;voja</synonyms>
+
+
+<p font="sansserif" style="normal" size="10" color="foreground" justify="left" spacing="10" before="5" after="0" left="0" right="0">
+Finan&#269;n&#250; podporu v&#253;vaoja posielajte na:
+ 
+<p>WebMoney:</p>
+<p>     WMR R321502538916</p>
+<p>     WMZ Z208634876649</p>
+<p>     WMU U221598315212</p>
+<p>     WME E234802202031</p>
+<p>Yandex-Money:</p>
+<p>     41001686491180</p>
+
+</p>
+</topic>
+<uid value="537061638"/>
+<context contextUID="Main" topicID="1"/>
+<context contextUID="StartPage" topicID="2"/>
+<context contextUID="SettingList" topicID="3"/>
+<context contextUID="PluginManager" topicID="4"/>
+<context contextUID="ApplicationSettings" topicID="5"/>
+<context contextUID="FAQ" topicID="6"/>
+<context contextUID="Donate" topicID="7"/>
+<indexlink topicID="1" indexID="0" categoryUID="537061638">O TweakS</indexlink>
+<indexlink topicID="2" indexID="1" categoryUID="537061638">TweakS - za&#269;&#237;name</indexlink>
+<indexlink topicID="3" indexID="2" categoryUID="537061638">Pr&#225;ca s doplnkami</indexlink>
+<indexlink topicID="4" indexID="3" categoryUID="537061638">Spr&#225;vca doplnkov</indexlink>
+<indexlink topicID="5" indexID="4" categoryUID="537061638">Nastavenia</indexlink>
+<indexlink topicID="6" indexID="5" categoryUID="537061638">&#268;asto kladen&#233; ot&#225;zky FAQ</indexlink>
+<indexlink topicID="7" indexID="6" categoryUID="537061638">Podpora v&#253;voja</indexlink>
+<index indexID="0">O TweakS</index>
+<index indexID="1">Pou&#382;&#237;vanie TweakS</index>
+<index indexID="2">Pr&#225;ca s doplnkami</index>
+<index indexID="3">Spr&#225;vca doplnkov</index>
+<index indexID="4">Nastavenia</index>
+<index indexID="5">&#268;asto kladen&#233; ot&#225;zky FAQ</index>
+<index indexID="6">Podpora v&#253;voja</index>
+
+<customization><titlestyle fontstyle="sansserif" size="10"/>
+<listbullet1style bulletchar="8226"/>
+<listbullet2style bulletchar="8226"/>
+<lists leftindent="20"/>
+<body font="sansserif" style="normal" size="10" color="foreground" justify="left" spacing="10" before="5" after="0" left="0" right="0"></body>
+</customization>
+<mbmlist/></cshlp>

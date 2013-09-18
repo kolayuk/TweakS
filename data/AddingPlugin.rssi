@@ -1,0 +1,117 @@
+/*
+========================================================================
+ Name        : AddingPlugin.rssi
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+#include "AddingPlugin.hrh"
+#include "AddingPlugin.loc"
+
+RESOURCE AVKON_VIEW r_adding_plugin_adding_plugin_view
+	{
+	cba = r_adding_plugin_control_pane;
+	menubar = r_adding_plugin_options_menu;
+	toolbar = 0;
+	}
+RESOURCE MENU_BAR r_adding_plugin_options_menu
+	{titles =
+			{
+			MENU_TITLE
+				{
+				menu_pane = r_adding_plugin_menu_pane1_menu_pane;
+				}
+			};
+
+	}
+RESOURCE STATUS_PANE_APP_MODEL r_adding_plugin_status_pane
+	{
+	panes =
+		{
+		SPANE_PANE
+			{
+			id = EEikStatusPaneUidTitle;
+			type = EAknCtTitlePane;
+			resource = r_adding_plugin_title_resource;
+			}
+		};
+	}
+RESOURCE TITLE_PANE r_adding_plugin_title_resource
+	{
+	txt = STR_AddingPluginView_3;
+	}
+RESOURCE LISTBOX r_adding_plugin_list_box
+	{
+	flags = EAknListBoxSelectionList;
+	}
+RESOURCE CBA r_adding_plugin_control_pane
+	{
+	buttons =
+		{
+		CBA_BUTTON
+			{
+			id = EAknSoftkeyOptions;
+			txt = STR_AddingPluginView_1;
+			},
+		CBA_BUTTON
+			{
+			id = EAddingPluginViewControlPaneRightId;
+			txt = STR_AddingPluginView_2;
+			}
+		};
+	}
+RESOURCE MENU_PANE r_adding_plugin_menu_pane1_menu_pane
+	{
+	items =
+		{
+		MENU_ITEM
+			{
+			command = EAddingPluginView_MenuItemCommand;
+			txt = STR_AddingPluginView_7;
+			},
+		MENU_ITEM
+			{
+			command = EAddingPluginView_MenuItem1Command;
+			txt = STR_AddingPluginView_8;
+			},
+		MENU_ITEM
+			{
+			command = EAddingPluginView_C_MenuItemCommand;
+			txt = STR_AddingPluginView_9;
+			},
+		MENU_ITEM
+			{
+			command = EAddingPluginView_MenuItem4Command;
+			txt = STR_AddingPluginView_4;
+			},
+		MENU_ITEM
+			{
+			command = EAddingPluginView_MenuItem2Command;
+			txt = STR_AddingPluginView_10;
+			},
+		MENU_ITEM
+			{
+			command = EAddingPluginView_MenuItem3Command;
+			txt = STR_AddingPluginView_11;
+			}
+		};
+	}
+RESOURCE TBUF R_ADDPLUGIN_NOT_SUPPORTED
+	{buf=STR_AddPluginNotSupported;}
+				RESOURCE TBUF R_ADDPLUGIN_EMPTY
+	{buf=STR_AddPluginEmpty;}
+		RESOURCE ARRAY r_actions
+	{
+	items =
+		{
+		LBUF {txt = STR_AddHide;},
+		LBUF {txt = STR_AddShow;}
+		};
+	}

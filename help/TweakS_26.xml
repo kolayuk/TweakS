@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE asptml SYSTEM "/epoc32/tools/cshlpcmp/dtd/asptml.dtd">
+<?xml:stylesheet href="/epoc32/tools/cshlpcmp/xsl/asptml.xsl" title="asptml" type="text/xsl"?>
+<asptml>
+<uid value="0x2002E906"/>
+ 
+<topic>
+<category>TweakS</category>
+<topictitle>O TweakS</topictitle>
+<synonyms>O TweakS</synonyms>
+<context contextUID="Main"/>
+<index>O TweakS</index>
+<p>
+<b>TweakS - Vylaďte svoj Smrtphone!</b>
+<p>TweakS - aplikácia pre správu systémových nastavení.</p>
+<p>Všetky doplnky aplikácie TweakS sú pre správu nastavení telefónu, aj keď vačšina z nich nie je v dokumentácii. 
+Aplikácia TweakS je uživateľské rozhranie pre správu doplnkov. Všetky nastavenia sú uložené v "central repository". Private zložka (10202be9). </p>
+ 
+<p>Vývojári:</p>
+<p>     Kolay - aplikácia a uživateľské rozhranie.</p>
+<p>     CODeRUS - nápad, zbieranie informácii a písanie doplnkov.</p>
+ 
+<p>Oficiálny WEB: http://www.kolaysoft.ru/TweakS/</p>
+ 
+<p>Pre viac informácii, si vyberte položku témy ktorá Vás zaujíma.</p>
+</p>
+</topic>
+ 
+<topic>
+<category>TweakS</category>
+<topictitle>TweakS - začíname</topictitle>
+<synonyms>Používanie TweakS</synonyms>
+<context contextUID="StartPage"/>
+<index>Používanie TweakS</index>
+<p>
+V hlavnom okne aplikácie vidíte zoznam aktívnych/nainštalovaných doplnkov. 
+Každý doplnok je súbor možností nastavenia, usporiadaní podľa zmyslu a účelu. 
+Pre správu doplnkov choďte do Voľby - Správca doplnkov (pozri Správcu doplnkov). 
+Ak je nutné, po výbere doplnku, urobiť zmeny až po reštarte telefónu, aplikácia Vás na to upozorní. 
+TweakS bude často aktualizovaný. Pre získanie najnovšej verzie, použite položku Aktualizácia. Choďte do Voľby - O Aplikácii. Tiež, môžte použiť Auto aktualizáciu (pozri Nastavenia).
+</p>
+</topic>
+ 
+<topic>
+<category>TweakS</category>
+<topictitle>Práca s doplnkami</topictitle>
+<synonyms>Práca s doplnkami</synonyms>
+<context contextUID="SettingList"/>
+<index>Práca s doplnkami</index>
+<p>
+Po výbere doplnku, sa Vám zobrazia možnosti nastavenia. 
+Poznámka: Pri používaní doplnku budete mať k dispozícii len nastavenia ktoré podporuje Váš telefón. Ak nevidíte žiadne nastavenia používané doplnkom - znamená to, že ich telefón nepodporuje. Ak je zoznam nastavení doplnku prázdny, potom nie je doplnok kompatibilný s Vašim telefónom. 
+ 
+<p>Dostupné možnosti:</p>
+<p>     Informácie - zobrazenie dodatočných informácii doplnku</p>
+<p>     Zadať ručne - Umožňuje zadať hodnoty ručne, formou textu alebo číselných hodnôt.(UPOZORNENIE!!! Len pre pokročilých uživateľov!)</p>
+<p>     Resetovať a Resetovať vš. hodnoty - resetovanie zvolenej položky alebo celého doplnku. Použiteľné pre obnovenie pôvodných nastavení.</p>
+<p>     Vymazať hodnotu - nastaví hodnotu vybranej položky na prázdnu (0 pre čísla, prázdny riadok pre text)</p>
+</p>
+</topic>
+ 
+<topic>
+<category>TweakS</category>
+<topictitle>Správca doplnkov</topictitle>
+<synonyms>Správca doplnkov</synonyms>
+<context contextUID="PluginManager"/>
+<index>Správca doplnkov</index>
+<p>
+Hlavné Voľby - Nastavenia -> Správca doplnkov
+Správca doplnkov umožňuje aktivovanie, deaktivovanie a odstránenie doplnkov. Nové doplnky je možné inštalovať/aktualizovať aj z Internetu.
+Stiahnuté doplnky nemôžu byť inštalované do iných telefónov.
+</p>
+</topic>
+
+<topic>
+<category>TweakS</category>
+<topictitle>Nastavenia</topictitle>
+<synonyms>Nastavenia</synonyms>
+<context contextUID="ApplicationSettings"/>
+<index>Nastavenia</index>
+<p>
+Nastavenia aplikácie obsahujú možnosti pripojenia k Internetu:
+<p>     Prístupový bod - prístupový bod, používaný pre pripojenie k Internetu. Ak ho nenastavíte, aplikácia sa Vás bude pýtať na jeho výber pred každým pripojením.</p>
+<p>     Auto aktualizácia - ak je zapnutá, aplikácia sa po spustení pripojí na TweakS server a oznámi Vám ak je nová verzia.</p>
+</p>
+</topic>
+
+<topic>
+<category>TweakS</category>
+<topictitle>Často kladené otázky FAQ</topictitle>
+<synonyms>Často kladené otázky FAQ</synonyms>
+<context contextUID="FAQ"/>
+<index>Často kladené otázky FAQ</index>
+<p>
+Q: TweakS? Čo je to!?
+<p>A: TweakS je aplikácia pre správu nastavení v "central repository" (10202be9).</p>
+ 
+<p>Q: Koľko pamäte ram využíva?</p>
+<p>A: Pri používaní - okolo 800 KB. Po zatvorení - 0 </p>
+
+<p>Q: Chyba v programe! </p>
+<p>A: Chyba - je keď aplikácia "spadne". Ak voľby nefungujú, znamená to, že ich telefón nepodporuje. </p>
+ 
+<p>Q: Doplnok [xyx] nefunguje </p>
+<p>A: Ak voľby nefungujú, znamená to, že ich telefón nepodporuje. </p>
+ 
+<p>Q: Ak nefunguje doplnok, znamená to, že je aplikácia nepoužiteľná? </p>
+<p>A: Doplnky nemusia "výlučne" fungovať. Ak po zmene hodnôt a reštartovaní nie je vidieť žiadne zmeny - znamená to, že toto nastavenie nie je Vašim telefónom podporované. </p>
+  
+<p>Q: Ako vrátiť zmeny? Odstránenie aplikácie nemá žiadny efekt... </p>
+<p>A: Mali by ste použiť funkciu Resetovať a Resetovať vš. hodnoty.</p> 
+ 
+</p>
+</topic>
+ 
+<topic>
+<category>TweakS</category>
+<topictitle>Podpora vývoja</topictitle>
+<synonyms>Podpora vývoja</synonyms>
+<context contextUID="Donate"/>
+<index>Podpora vývoja</index>
+<p>
+Finančnú podporu vývaoja posielajte na:
+ 
+<p>WebMoney:</p>
+<p>     WMR R321502538916</p>
+<p>     WMZ Z208634876649</p>
+<p>     WMU U221598315212</p>
+<p>     WME E234802202031</p>
+<p>Yandex-Money:</p>
+<p>     41001686491180</p>
+
+</p>
+</topic>
+</asptml>

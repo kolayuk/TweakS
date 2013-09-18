@@ -1,0 +1,26 @@
+/*
+========================================================================
+ Name        : SettingList.loc
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+#ifdef LANGUAGE_16
+#include "SettingList.l16"
+#endif
+#ifdef LANGUAGE_01
+#include "SettingList.l01"
+#endif
+#ifdef LANGUAGE_26
+#include "SettingList.l26"
+#endif
+#ifdef LANGUAGE_31
+#include "SettingList.l31"
+#endif

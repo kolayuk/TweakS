@@ -1,0 +1,32 @@
+/*
+========================================================================
+ Name        : AddingPlugin.l01
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: UK English (01)
+CHARACTER_SET UTF8
+
+#define STR_AddingPluginView_2 "Back"
+#define STR_AddingPluginView_3 ""
+#define STR_AddingPluginView_1 "Menu"
+#define STR_AddingPluginView_10 "About setting"
+#define STR_AddingPluginView_11 "Back"
+#define STR_AddingPluginView_7 "Add"
+#define STR_AddingPluginView_8 "Edit"
+#define STR_AddPluginNotSupported "Plugin is not supported"
+#define STR_AddPluginEmpty "Empty\n Add entries from menu"
+#define STR_AddShow "Show"
+#define STR_AddHide "Hide"
+#define STR_AddingPluginView_9 "Remove [C]"
+#define STR_AddingPluginView_4 "Reset"
+
+

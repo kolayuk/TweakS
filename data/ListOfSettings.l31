@@ -1,0 +1,37 @@
+/*
+========================================================================
+ Name        : ListOfSettings.l31
+ Author      : Kolay
+Translate  : 南浦月(Nanpuyue)
+ Copyright   : Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Chinese  (31)
+CHARACTER_SET UTF8
+
+#define STR_ListOfSettingsView_2 "返回"
+#define STR_ListOfSettingsView_3 "设置"
+#define STR_ListOfSettingsView_1 "选项"
+#define STR_ListOfSettingsView_4 "更改"
+#define STR_ListOfSettingsView_5 "详情"
+#define STR_BinChange "更改"
+#define STR_ListboxPromt "无内容\n您的手机不支持此插件"
+#define STR_ListOfSettingsView_6 "返回"
+#define STR_ListOfSettingsView_7 "清除设置"
+#define STR_ListOfSettingsView_8 "还原设置"
+#define STR_AllToDefault "还原所有设置" 
+#define STR_ListOfSettingsView_9 "重启手机？"
+#define STR_DelCRE		"Delete CRE files?"
+#define STR_ListOfSettingsView_10 "设置尚未锁定，要继续使用此插件必须重启手机！现在重启？"
+#define STR_ListOfSettingsView_11 "[当前目录]"
+#define STR_ListOfSettingsView_12 "手动编辑"
+#define STR_ListOfSettingsView_13 "文件"
+#define STR_ListOfSettingsView_15 "不可用"
+#define STR_ListOfSettingsView_14 "文件夹"
+#define STR_ListOfSettingsView_16 "插件错误！可能是错误的插件或者下载出错。"

@@ -1,0 +1,28 @@
+/*
+========================================================================
+ Name        : AddingPlugin.l26
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Slovak (26)
+CHARACTER_SET UTF8
+
+#define STR_AddingPluginView_2 "Späť"
+#define STR_AddingPluginView_3 ""
+#define STR_AddingPluginView_1 "Menu"
+#define STR_AddingPluginView_10 "O nastavení"
+#define STR_AddingPluginView_11 "Späť"
+#define STR_AddingPluginView_7 "Pridať"
+#define STR_AddingPluginView_8 "Upraviť"
+#define STR_AddPluginNotSupported "Doplnok nie je podporovaný"
+#define STR_AddPluginEmpty "Prázdne\n Pridať položky z menu"
+#define STR_AddingPluginView_4 "Vymazať"
+#define STR_AddingPluginView_9 "Odstrániť [C]"

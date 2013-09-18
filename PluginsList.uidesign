@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designerData version="1.1.0">
+  <componentManifest>
+    <manifestEntry id="com.nokia.sdt.series60.CAknView" version="1.2.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.DesignTimeContainer" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.CommonBase" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.StatusPane" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.ControlBase" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.StatusPaneTitle" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.StatusPaneTitleBase" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.CBA" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.CBABase" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.CCoeControl" version="1.2.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.ContainerBase" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.CAknListBox" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.CCoeControlBase" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.MenuBar" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.MenuBase" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.MenuPane" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.MenuItem" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.MenuItemBase" version="1.0.0"/>
+  </componentManifest>
+  <property id="com.nokia.sdt.symbian.dm.RESOURCE_DIRECTORY_ID">data</property>
+  <property id="com.nokia.sdt.component.symbian.version">3.0.0</property>
+  <property id="com.nokia.sdt.component.symbian.vendor">com.nokia.series60</property>
+  <property id="com.nokia.sdt.symbian.dm.COMPONENT_PROVIDER">com.nokia.sdt.component.symbian.Symbian-Provider</property>
+  <property id="com.nokia.sdt.symbian.dm.INCLUDE_DIRECTORY_ID">inc</property>
+  <property id="com.nokia.sdt.symbian.dm.SOURCE_DIRECTORY_ID">src</property>
+  <property id="com.nokia.sdt.symbian.dm.SOURCEGEN_PROVIDER">com.nokia.sdt.sourcegen.Symbian-Provider</property>
+  <property id="com.nokia.sdt.symbian.dm.BUILD_DIRECTORY_ID">group</property>
+  <component id="com.nokia.sdt.series60.CAknView">
+    <property id="className">CPluginsListView</property>
+    <compoundProperty id="location">
+      <property id="x">52</property>
+      <property id="y">45</property>
+    </compoundProperty>
+    <property id="optionsMenu" type="componentRef">optionsMenu</property>
+    <property id="name">PluginsListView</property>
+    <compoundProperty id="size">
+      <property id="width">240</property>
+      <property id="height">320</property>
+    </compoundProperty>
+    <component id="com.nokia.sdt.series60.StatusPane">
+      <compoundProperty id="location">
+        <property id="x">20</property>
+      </compoundProperty>
+      <property id="name">statusPane</property>
+      <compoundProperty id="size">
+        <property id="width">204</property>
+        <property id="height">66</property>
+      </compoundProperty>
+      <component id="com.nokia.sdt.series60.StatusPaneTitle">
+        <compoundProperty id="location">
+          <property id="x">56</property>
+        </compoundProperty>
+        <property id="name">title</property>
+        <property id="titleText" type="i18n">STR_PluginsListView_3</property>
+        <compoundProperty id="size">
+          <property id="width">148</property>
+          <property id="height">43</property>
+        </compoundProperty>
+        <compoundProperty id="image"/>
+      </component>
+    </component>
+    <component id="com.nokia.sdt.series60.CBA">
+      <compoundProperty id="location">
+        <property id="y">288</property>
+      </compoundProperty>
+      <compoundProperty id="info">
+        <property id="leftText" type="i18n">STR_PluginsListView_1</property>
+        <property id="rightText" type="i18n">STR_PluginsListView_2</property>
+        <property id="type">CUSTOM</property>
+      </compoundProperty>
+      <property id="name">controlPane</property>
+      <compoundProperty id="size">
+        <property id="width">240</property>
+        <property id="height">32</property>
+      </compoundProperty>
+    </component>
+    <component id="com.nokia.sdt.series60.CCoeControl">
+      <property id="initialFocus" type="componentRef">listBox</property>
+      <compoundProperty id="location">
+        <property id="y">66</property>
+      </compoundProperty>
+      <property id="className">CPluginsList</property>
+      <property id="name">PluginsList</property>
+      <compoundProperty id="size">
+        <property id="width">240</property>
+        <property id="height">222</property>
+      </compoundProperty>
+      <component id="com.nokia.sdt.series60.CAknListBox">
+        <property id="style">CAknDoubleStyleListBox</property>
+        <sequenceProperty id="alignmentInfo">
+          <element>Default</element>
+          <element>Default</element>
+        </sequenceProperty>
+        <compoundProperty id="size">
+          <property id="width">240</property>
+          <property id="height">222</property>
+        </compoundProperty>
+        <compoundProperty id="location"/>
+        <compoundProperty id="markIcon"/>
+        <sequenceProperty id="extraImages"/>
+        <property id="name">listBox</property>
+        <eventBinding id="itemClicked" handlerDisplay="HandleListBoxItemClickedL" handlerSymbol="cpp@src//PluginsList.cpp/function(CPluginsList::HandleListBoxItemClickedL(CEikListBox*, TListBoxEvent))"/>
+        <eventBinding id="enterKeyPressed" handlerDisplay="HandleListBoxEnterKeyPressedL" handlerSymbol="cpp@src//PluginsList.cpp/function(CPluginsList::HandleListBoxEnterKeyPressedL(CEikListBox*, TListBoxEvent))"/>
+      </component>
+    </component>
+    <component id="com.nokia.sdt.series60.MenuBar">
+      <compoundProperty id="location">
+        <property id="x">5</property>
+        <property id="y">78</property>
+      </compoundProperty>
+      <property id="name">optionsMenu</property>
+      <compoundProperty id="size">
+        <property id="height">210</property>
+        <property id="width">229</property>
+      </compoundProperty>
+      <component id="com.nokia.sdt.series60.MenuPane">
+        <compoundProperty id="location"/>
+        <property id="name">menuPane1</property>
+        <compoundProperty id="size">
+          <property id="height">210</property>
+          <property id="width">229</property>
+        </compoundProperty>
+        <component id="com.nokia.sdt.series60.MenuItem">
+          <compoundProperty id="location">
+            <property id="x">5</property>
+            <property id="y">2</property>
+          </compoundProperty>
+          <property id="name">_MenuItem</property>
+          <property id="text" type="i18n">STR_PluginsListView_4</property>
+          <compoundProperty id="size">
+            <property id="width">214</property>
+            <property id="height">27</property>
+          </compoundProperty>
+          <eventBinding id="selected" handlerDisplay="Handle_MenuItemSelectedL" handlerSymbol="cpp@src//PluginsListView.cpp/function(CPluginsListView::Handle_MenuItemSelectedL(TInt))"/>
+        </component>
+        <component id="com.nokia.sdt.series60.MenuItem">
+          <compoundProperty id="location">
+            <property id="x">5</property>
+            <property id="y">31</property>
+          </compoundProperty>
+          <property id="name">_MenuItem7</property>
+          <property id="text" type="i18n">STR_PluginsListView_17</property>
+          <compoundProperty id="size">
+            <property id="width">214</property>
+            <property id="height">27</property>
+          </compoundProperty>
+          <component id="com.nokia.sdt.series60.MenuPane">
+            <compoundProperty id="location">
+              <property id="x">214</property>
+            </compoundProperty>
+            <property id="name">menuPane2</property>
+            <compoundProperty id="size">
+              <property id="width">152</property>
+              <property id="height">152</property>
+            </compoundProperty>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">2</property>
+              </compoundProperty>
+              <property id="name">_MenuItem8</property>
+              <property id="text" type="i18n">STR_PluginsListView_19</property>
+              <compoundProperty id="size">
+                <property id="width">137</property>
+                <property id="height">27</property>
+              </compoundProperty>
+              <eventBinding id="selected" handlerDisplay="Handle_MenuItem6SelectedL" handlerSymbol="cpp@src//PluginsListView.cpp/function(CPluginsListView::Handle_MenuItem6SelectedL(TInt))"/>
+            </component>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">31</property>
+              </compoundProperty>
+              <property id="name">_MenuItem9</property>
+              <property id="text" type="i18n">STR_PluginsListView_21</property>
+              <compoundProperty id="size">
+                <property id="width">137</property>
+                <property id="height">27</property>
+              </compoundProperty>
+              <eventBinding id="selected" handlerDisplay="Handle_MenuItem4SelectedL" handlerSymbol="cpp@src//PluginsListView.cpp/function(CPluginsListView::Handle_MenuItem4SelectedL(TInt))"/>
+            </component>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">60</property>
+              </compoundProperty>
+              <property id="name">_MenuItem5</property>
+              <property id="text" type="i18n">STR_PluginsListView_11</property>
+              <compoundProperty id="size">
+                <property id="width">137</property>
+                <property id="height">27</property>
+              </compoundProperty>
+              <eventBinding id="selected" handlerDisplay="UnlockAll" handlerSymbol="cpp@src//PluginsListView.cpp/function(CPluginsListView::UnlockAll(TInt))"/>
+            </component>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">89</property>
+              </compoundProperty>
+              <property id="name">_MenuItem12</property>
+              <property id="text" type="i18n">STR_PluginsListView_16</property>
+              <compoundProperty id="size">
+                <property id="width">137</property>
+                <property id="height">27</property>
+              </compoundProperty>
+              <eventBinding id="selected" handlerDisplay="Export" handlerSymbol="cpp@src//PluginsListView.cpp/function(CPluginsListView::Export(TInt))"/>
+            </component>
+          </component>
+        </component>
+        <component id="com.nokia.sdt.series60.MenuItem">
+          <compoundProperty id="location">
+            <property id="x">5</property>
+            <property id="y">60</property>
+          </compoundProperty>
+          <property id="name">_MenuItem4</property>
+          <property id="text" type="i18n">STR_PluginsListView_22</property>
+          <compoundProperty id="size">
+            <property id="width">214</property>
+            <property id="height">27</property>
+          </compoundProperty>
+          <component id="com.nokia.sdt.series60.MenuPane">
+            <compoundProperty id="location">
+              <property id="x">214</property>
+            </compoundProperty>
+            <property id="name">menuPane3</property>
+            <compoundProperty id="size"/>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">2</property>
+              </compoundProperty>
+              <property id="name">_MenuItem11</property>
+              <property id="text" type="i18n">STR_PluginsListView_25</property>
+              <compoundProperty id="size"/>
+              <eventBinding id="selected" handlerDisplay="Handle_MenuItem5SelectedL" handlerSymbol="cpp@src//PluginsListView.cpp/function(CPluginsListView::Handle_MenuItem5SelectedL(TInt))"/>
+            </component>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">4</property>
+              </compoundProperty>
+              <property id="name">_MenuItem10</property>
+              <property id="text" type="i18n">STR_PluginsListView_24</property>
+              <compoundProperty id="size"/>
+              <eventBinding id="selected" handlerDisplay="Handle_MenuItem3SelectedL" handlerSymbol="cpp@src//PluginsListView.cpp/function(CPluginsListView::Handle_MenuItem3SelectedL(TInt))"/>
+            </component>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">6</property>
+              </compoundProperty>
+              <property id="name">_MenuItem6</property>
+              <property id="text" type="i18n">STR_PluginsListView_6</property>
+              <compoundProperty id="size"/>
+              <eventBinding id="selected" handlerDisplay="Handle_MenuItem1SelectedL" handlerSymbol="cpp@src//PluginsListView.cpp/function(CPluginsListView::Handle_MenuItem1SelectedL(TInt))"/>
+            </component>
+          </component>
+        </component>
+        <component id="com.nokia.sdt.series60.MenuItem">
+          <compoundProperty id="location">
+            <property id="x">5</property>
+            <property id="y">89</property>
+          </compoundProperty>
+          <property id="name">_MenuItem1</property>
+          <property id="text" type="i18n">STR_PluginsListView_9</property>
+          <compoundProperty id="size">
+            <property id="width">214</property>
+            <property id="height">27</property>
+          </compoundProperty>
+          <eventBinding id="selected" handlerDisplay="ConnectToDev" handlerSymbol="cpp@src//PluginsListView.cpp/function(CPluginsListView::ConnectToDev(TInt))"/>
+        </component>
+        <component id="com.nokia.sdt.series60.MenuItem">
+          <compoundProperty id="location">
+            <property id="x">5</property>
+            <property id="y">118</property>
+          </compoundProperty>
+          <property id="name">_MenuItem3</property>
+          <property id="text" type="i18n">STR_PluginsListView_5</property>
+          <compoundProperty id="size">
+            <property id="width">214</property>
+            <property id="height">27</property>
+          </compoundProperty>
+          <eventBinding id="selected" handlerDisplay="SendSMS" handlerSymbol="cpp@src//PluginsListView.cpp/function(CPluginsListView::SendSMS(TInt))"/>
+        </component>
+        <component id="com.nokia.sdt.series60.MenuItem">
+          <compoundProperty id="location">
+            <property id="x">5</property>
+            <property id="y">147</property>
+          </compoundProperty>
+          <property id="name">_MenuItem2</property>
+          <property id="text" type="i18n">STR_PluginsListView_7</property>
+          <compoundProperty id="size">
+            <property id="width">214</property>
+            <property id="height">27</property>
+          </compoundProperty>
+          <eventBinding id="selected" handlerDisplay="Handle_MenuItem2SelectedL" handlerSymbol="cpp@src//PluginsListView.cpp/function(CPluginsListView::Handle_MenuItem2SelectedL(TInt))"/>
+        </component>
+      </component>
+    </component>
+  </component>
+  <stringBundle>
+    <stringTable language="LANG_Russian">
+      <string id="STR_PluginsListView_1">Меню</string>
+      <string id="STR_PluginsListView_2">Выход</string>
+      <string id="STR_PluginsListView_3">TweakS</string>
+      <string id="STR_PluginsListView_4">Выбор</string>
+      <string id="STR_PluginsListView_7">Выход</string>
+      <string id="STR_PluginsListView_17">Настройки</string>
+      <string id="STR_PluginsListView_19">Настройки</string>
+      <string id="STR_PluginsListView_21">Упр. плагинами</string>
+      <string id="STR_PluginsListView_22">О программе</string>
+      <string id="STR_PluginsListView_24">Справка</string>
+      <string id="STR_PluginsListView_25">Обновление</string>
+      <string id="STR_PluginsListView_6">О программе</string>
+      <string id="STR_PluginsListView_9">Написать разработчикам</string>
+      <string id="STR_PluginsListView_5">Поддержать проект</string>
+      <string id="STR_PluginsListView_11">Разблок. все</string>
+      <string id="STR_PluginsListView_16">Экспорт</string>
+    </stringTable>
+    <stringTable language="LANG_English">
+      <string id="STR_PluginsListView_1">Options</string>
+      <string id="STR_PluginsListView_2">Exit</string>
+      <string id="STR_PluginsListView_3">TweakS</string>
+      <string id="STR_PluginsListView_4">Choose</string>
+      <string id="STR_PluginsListView_7">Exit</string>
+      <string id="STR_PluginsListView_17">Settings</string>
+      <string id="STR_PluginsListView_19">Settings</string>
+      <string id="STR_PluginsListView_21">Manage plugins</string>
+      <string id="STR_PluginsListView_22">About</string>
+      <string id="STR_PluginsListView_24">Help</string>
+      <string id="STR_PluginsListView_25">Update</string>
+      <string id="STR_PluginsListView_6">About</string>
+      <string id="STR_PluginsListView_9">Send feedback</string>
+      <string id="STR_PluginsListView_5">Donate</string>
+      <string id="STR_PluginsListView_11">Unlock all</string>
+      <string id="STR_PluginsListView_16">??Экспорт</string>
+    </stringTable>
+    <stringTable language="LANG_Slovak">
+      <string id="STR_PluginsListView_1">Voľby</string>
+      <string id="STR_PluginsListView_2">Ukončiť</string>
+      <string id="STR_PluginsListView_3">TweakS</string>
+      <string id="STR_PluginsListView_4">Vybrať</string>
+      <string id="STR_PluginsListView_7">Ukončiť</string>
+      <string id="STR_PluginsListView_17">Nastavenia</string>
+      <string id="STR_PluginsListView_19">Nastavenia</string>
+      <string id="STR_PluginsListView_21">Správca doplnkov</string>
+      <string id="STR_PluginsListView_22">O aplikácii</string>
+      <string id="STR_PluginsListView_24">Pomocník</string>
+      <string id="STR_PluginsListView_25">Aktualizácia</string>
+      <string id="STR_PluginsListView_6">O aplikácii</string>
+      <string id="STR_PluginsListView_9">Spätná väzba</string>
+      <string id="STR_PluginsListView_5">Podporiť</string>
+      <string id="STR_PluginsListView_11">Unlock all</string>
+      <string id="STR_PluginsListView_16">??Экспорт</string>
+    </stringTable>
+    <stringTable language="LANG_PrcChinese">
+      <string id="STR_PluginsListView_1">选项</string>
+      <string id="STR_PluginsListView_2">退出</string>
+      <string id="STR_PluginsListView_3">TweakS</string>
+      <string id="STR_PluginsListView_4">选择</string>
+      <string id="STR_PluginsListView_7">退出</string>
+      <string id="STR_PluginsListView_17">设置</string>
+      <string id="STR_PluginsListView_19">设置</string>
+      <string id="STR_PluginsListView_21">管理插件</string>
+      <string id="STR_PluginsListView_22">关于</string>
+      <string id="STR_PluginsListView_24">帮助</string>
+      <string id="STR_PluginsListView_25">更新</string>
+      <string id="STR_PluginsListView_6">关于</string>
+      <string id="STR_PluginsListView_9">反馈</string>
+      <string id="STR_PluginsListView_5">捐赠</string>
+      <string id="STR_PluginsListView_11">Unlock all</string>
+      <string id="STR_PluginsListView_16">??Экспорт</string>
+    </stringTable>
+  </stringBundle>
+  <macroTable/>
+  <sourceMappingState>
+    <resourceMappings>
+      <resourceMapping instanceName="PluginsListView">r_plugins_list_plugins_list_view</resourceMapping>
+      <resourceMapping instanceName="title">r_plugins_list_title_resource</resourceMapping>
+      <resourceMapping instanceName="optionsMenu">r_plugins_list_options_menu</resourceMapping>
+      <resourceMapping instanceName="statusPane">r_plugins_list_status_pane</resourceMapping>
+      <resourceMapping instanceName="listBox">r_plugins_list_list_box</resourceMapping>
+      <resourceMapping instanceName="menuPane1">r_plugins_list_menu_pane1_menu_pane</resourceMapping>
+      <resourceMapping instanceName="menuPane2">r_plugins_list_menu_pane2</resourceMapping>
+      <resourceMapping instanceName="controlPane">r_plugins_list_control_pane</resourceMapping>
+      <resourceMapping instanceName="menuPane3">r_plugins_list_menu_pane3</resourceMapping>
+    </resourceMappings>
+    <enumMappings>
+      <enumMapping instanceName="listBox" propertyId="type">EAknListBoxSelectionList</enumMapping>
+      <enumMapping instanceName="controlPane" propertyId="leftId" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EAknSoftkeyOptions</enumMapping>
+      <enumMapping instanceName="_MenuItem" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EPluginsListView_MenuItemCommand</enumMapping>
+      <enumMapping instanceName="title" propertyId="" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_STATUS_PANE_ID">EEikStatusPaneUidTitle</enumMapping>
+      <enumMapping instanceName="_MenuItem4" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EPluginsListView_MenuItem4Command</enumMapping>
+      <enumMapping instanceName="_MenuItem3" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EPluginsListView_MenuItem3Command</enumMapping>
+      <enumMapping instanceName="_MenuItem2" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EPluginsListView_MenuItem2Command</enumMapping>
+      <enumMapping instanceName="_MenuItem1" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EPluginsListView_MenuItem1Command</enumMapping>
+      <enumMapping instanceName="_MenuItem11" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EPluginsListView_MenuItem11Command</enumMapping>
+      <enumMapping instanceName="_MenuItem8" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EPluginsListView_MenuItem8Command</enumMapping>
+      <enumMapping instanceName="_MenuItem10" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EPluginsListView_MenuItem10Command</enumMapping>
+      <enumMapping instanceName="_MenuItem6" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EPluginsListView_MenuItem6Command</enumMapping>
+      <enumMapping instanceName="_MenuItem12" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EPluginsListView_MenuItem12Command</enumMapping>
+      <enumMapping instanceName="_MenuItem5" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EPluginsListView_MenuItem5Command</enumMapping>
+      <enumMapping instanceName="PluginsListView" propertyId="" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_VIEW_UID">EPluginsListViewId</enumMapping>
+      <enumMapping instanceName="_MenuItem9" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EPluginsListView_MenuItem9Command</enumMapping>
+      <enumMapping instanceName="controlPane" propertyId="rightId" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EAknSoftkeyExit</enumMapping>
+      <enumMapping instanceName="menuItem" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EPluginsListViewMenuItemCommand</enumMapping>
+      <enumMapping instanceName="title" propertyId="" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_CONTROL_TYPE">EAknCtTitlePane</enumMapping>
+    </enumMappings>
+    <arrayMappings/>
+  </sourceMappingState>
+  <generatedFiles>
+    <file>src/pluginslist.cpp</file>
+    <file>inc/pluginslistview.h</file>
+    <file>inc/pluginslist.h</file>
+    <file>src/pluginslistview.cpp</file>
+    <file>data/tweaks.rss</file>
+    <file>data/pluginslist.rssi</file>
+    <file>inc/tweaks.hrh</file>
+    <file>inc/pluginslist.hrh</file>
+    <file>data/listofsettings.rssi</file>
+    <file>inc/listofsettings.hrh</file>
+    <file>data/pluginsmanager.rssi</file>
+    <file>inc/pluginsmanager.hrh</file>
+    <file>data/settinglist.rssi</file>
+    <file>inc/settinglist.hrh</file>
+    <file>data/addingplugin.rssi</file>
+    <file>inc/addingplugin.hrh</file>
+    <file>data/tweaks.loc</file>
+    <file>data/tweaks.l16</file>
+    <file>data/tweaks.l01</file>
+    <file>data/tweaks.l26</file>
+    <file>data/tweaks.l31</file>
+    <file>data/pluginslist.loc</file>
+    <file>data/pluginslist.l16</file>
+    <file>data/pluginslist.l01</file>
+    <file>data/pluginslist.l26</file>
+    <file>data/pluginslist.l31</file>
+    <file>data/listofsettings.loc</file>
+    <file>data/listofsettings.l16</file>
+    <file>data/listofsettings.l01</file>
+    <file>data/listofsettings.l26</file>
+    <file>data/listofsettings.l31</file>
+    <file>data/pluginsmanager.loc</file>
+    <file>data/pluginsmanager.l16</file>
+    <file>data/pluginsmanager.l01</file>
+    <file>data/pluginsmanager.l26</file>
+    <file>data/pluginsmanager.l31</file>
+    <file>data/settinglist.loc</file>
+    <file>data/settinglist.l16</file>
+    <file>data/settinglist.l01</file>
+    <file>data/settinglist.l26</file>
+    <file>data/settinglist.l31</file>
+    <file>data/addingplugin.loc</file>
+    <file>data/addingplugin.l16</file>
+    <file>data/addingplugin.l01</file>
+    <file>data/addingplugin.l26</file>
+    <file>data/addingplugin.l31</file>
+  </generatedFiles>
+</designerData>

@@ -1,0 +1,50 @@
+/*
+========================================================================
+ Name        : PluginsList.l16
+ Author      : Kolay
+ Copyright   : TweakS - it is a tweaker for Symbian OS
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Slovak (26)
+
+CHARACTER_SET UTF8
+
+#define STR_PluginsListView_1 "Voľby"
+#define STR_PluginsListView_2 "Ukončiť"
+#define STR_PluginsListView_3 "TweakS"
+#define STR_PluginsListView_7 "Ukončiť"
+#define STR_PluginsListView_4 "Vybrať"
+#define STR_PluginsListView_8 "O - TweakS v.1.12"
+#define STR_SMSWarningHeader "Podporiť - TweakS"
+#define STR_SMSWarningText "POZOR! SMS-správa bude odoslaná na číslo %S. Cena %S.\nVaša krajina: %S\nPokračovať v odoslaní?"
+#define STR_SMSSelectCountry "Vyberte krajinu:"
+#define STR_SMSSelectOperator "Vyberte operátora:"
+#define STR_About "TweakS - Tweak your Smart\nVývojári: Kolay&CODeRUS\nSK preklad: Benecore\nPodpora: kolayuk@mail.ru\nWeb: http://kolaysoft.ru/TweakS/\nDonate:\n"
+#define STR_PluginsListView_10 "Žiadne inštalované doplnky!\n Pre použitie aplikácie nainštalujte doplnky."
+#define STR_PluginsListView_13 "Máte najnovšiu verziu. Chcete ju preinštalovať?"
+#define STR_PluginsListView_14 "Dostupná aktualizácia. Stiahnuť?\n"
+#define STR_CBDialogTitle "Napíšte správu:"
+#define STR_Exporting "Please wait..."
+#define STR_PluginsListView_15 "Sťahovanie..."
+#define STR_PluginsListView_12 "Aktualizácia"
+#define STR_PluginsListView_17 "Nastavenia"
+#define STR_PluginsListView_19 "Nastavenia"
+#define STR_PluginsListView_21 "Správca doplnkov"
+#define STR_PluginsListView_22 "O aplikácii"
+#define STR_ExportPlugins "Export plugins"
+#define STR_ExportAll "Export all"
+#define STR_PluginsListView_24 "Pomocník"
+#define STR_PluginsListView_25 "Aktualizácia"
+#define STR_PluginsListView_6 "O aplikácii"
+#define STR_PluginsListView_9 "Spätná väzba"
+#define STR_PluginsListView_5 "Podporiť"
+#define STR_MoreApps "More applications"
+#define STR_PluginsListView_11 "Odomknúť vš."
+#define STR_PluginsListView_16 "Exportovať"

@@ -1,0 +1,49 @@
+/*
+========================================================================
+ Name        : PluginsList.l16
+ Author      : Kolay
+ Copyright   : TweakS - it is a tweaker for Symbian OS
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Russian (16)
+CHARACTER_SET UTF8
+
+#define STR_PluginsListView_1 "Options"
+#define STR_PluginsListView_2 "Exit"
+#define STR_PluginsListView_3 "TweakS"
+#define STR_PluginsListView_7 "Exit"
+#define STR_PluginsListView_4 "Choose"
+#define STR_PluginsListView_8 "TweakS v.1.12 - About"
+#define STR_SMSWarningHeader "Donate - TweakS"
+#define STR_SMSWarningText "Caution! SMS-message is sent to the number %S. It costs %S.\nYour country: %S\nContinue sending?"
+#define STR_SMSSelectCountry "Choose country:"
+#define STR_SMSSelectOperator "Choose operator:"
+#define STR_About "TweakS - Tweak your Smart\n Developers: Kolay&CODeRUS\n Support: kolayuk@mail.ru\n Web: http://kolaysoft.ru/TweakS/\nDonate:\n"
+#define STR_PluginsListView_10 "No plugins installed!\n Please install plugins for using application."
+#define STR_PluginsListView_13 "You have latest version. Do you want to reinstall it?"
+#define STR_PluginsListView_14 "New update avialable. Download?\n"
+#define STR_CBDialogTitle "Enter message:"
+#define STR_Exporting "Please wait..."
+#define STR_PluginsListView_15 "Downloading..."
+#define STR_PluginsListView_12 "Update"
+#define STR_ExportPlugins "Export plugins"
+#define STR_ExportAll "Export all"
+#define STR_PluginsListView_17 "Settings"
+#define STR_PluginsListView_19 "Settings"
+#define STR_MoreApps "More applications"
+#define STR_PluginsListView_21 "Manage plugins"
+#define STR_PluginsListView_22 "About"
+#define STR_PluginsListView_24 "Help"
+#define STR_PluginsListView_25 "Update"
+#define STR_PluginsListView_6 "About"
+#define STR_PluginsListView_9 "Send feedback"
+#define STR_PluginsListView_5 "Donate"
+#define STR_PluginsListView_11 "Unlock all"
+#define STR_PluginsListView_16 "Export"

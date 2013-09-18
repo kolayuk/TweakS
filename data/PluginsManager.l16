@@ -1,0 +1,30 @@
+/*
+========================================================================
+ Name        : PluginsManager.l16
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Russian (16)
+CHARACTER_SET UTF8
+
+#define STR_PluginsManagerView_3 "Управление плагинами"
+#define STR_PluginsManagerView_1 "Меню"
+#define STR_PluginsManagerView_2 "Назад"
+#define STR_PluginsManagerView_10 "Подключить"
+#define STR_PluginsManagerView_11 "Удалить"
+#define STR_PluginsManagerView_12 "Установить"
+#define STR_PluginsManagerView_14 "Активен"
+#define STR_PluginsManagerView_15 "Отключен"
+#define STR_PluginsManagerView_16 "Не установлен"
+#define STR_PluginsManagerView_17 "Доступно обновление"
+#define STR_PluginsManagerView_18 "Идет загрузка плагина..."
+#define STR_PluginsManagerView_9 "Отключить"
+#define STR_PluginsManagerView_4 "Информация о плагине"

@@ -1,0 +1,21 @@
+TARGET          TweakSRecognizer.dll
+TARGETTYPE      PLUGIN
+UID             0x10009D8D 0xE9066A15
+
+START RESOURCE E9066A15.rss
+	TARGET TweakSRecognizer.rsc
+END
+
+CAPABILITY      ProtServ
+VENDORID        0
+
+USERINCLUDE     ..
+SYSTEMINCLUDE   \epoc32\include
+SYSTEMINCLUDE   \epoc32\include\ecom
+
+
+SOURCE          PyRecognizer.CPP
+
+LIBRARY         EUSER.LIB
+LIBRARY         APMIME.LIB
+

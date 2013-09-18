@@ -1,0 +1,34 @@
+/*
+========================================================================
+ Name        : SettingList.l31
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+Translate  : 南浦月(Nanpuyue)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Chinese  (31)
+CHARACTER_SET UTF8
+
+#define STR_SettingListView_1 "选项"
+#define STR_SettingListView_2 "返回"
+#define STR_SettingListView_3 "设置"
+#define STR_SettingListView_4 "更改"
+#define STR_SettingListView_5 "保存"
+#define STR_SettingListView_6 "返回"
+#define STR_SettingListView_7 "接入点"
+#define STR_SettingListView_8 "<询问用户>"
+#define STR_SettingListView_9 "TweakS - 首次启动，要使用所有功能需要重启手机。现在重启？"
+#define STR_SettingListView_10 "新插件已安装。"
+#define STR_SettingListView_11 "自动更新"
+#define STR_SettingListView_13 "禁用"
+#define STR_SettingListView_14 "选择接入点"
+#define STR_SettingListView_15 "保存设置？"
+#define STR_SettingListView_12 "启用"
+#define STR_SettingListView_17 "返回"

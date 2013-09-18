@@ -1,0 +1,36 @@
+/*
+========================================================================
+ Name        : PluginsList.hrh
+ Author      : Kolay
+ Copyright   : Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+enum TPluginsListViewCommands
+	{
+	EPluginsListView_MenuItemCommand = 0x6000,
+	EPluginsListViewMenuItemCommand,
+	EPluginsListView_MenuItem2Command,
+	EPluginsListView_MenuItem4Command,
+	EPluginsListView_MenuItem6Command,
+	EPluginsListView_MenuItem8Command,
+	EPluginsListView_MenuItem9Command,
+	EPluginsListView_MenuItem10Command,
+	EPluginsListView_MenuItem11Command,
+	EPluginsListView_MenuItem1Command,
+	EPluginsListView_MenuItem3Command,
+	EPluginsListView_MenuItem5Command,
+	EPluginsListView_MoreApps,
+	EPluginsListView_MenuItem12Command
+	};
+enum TControls
+	{
+	EPluginListWait=0x511,
+	EEditor,
+	ELabel
+	};

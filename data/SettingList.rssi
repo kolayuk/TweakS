@@ -1,0 +1,127 @@
+/*
+========================================================================
+ Name        : SettingList.rssi
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+#include "SettingList.hrh"
+#include "SettingList.loc"
+
+RESOURCE AVKON_VIEW r_setting_list_setting_list_view
+	{
+	cba = r_setting_list_control_pane;
+	menubar = r_setting_list_options_menu;
+	toolbar = 0;
+	}
+RESOURCE MENU_BAR r_setting_list_options_menu
+	{titles =
+			{
+			MENU_TITLE
+				{
+				menu_pane = r_setting_list_menu_pane1_menu_pane;
+				}
+			};
+
+	}
+RESOURCE STATUS_PANE_APP_MODEL r_setting_list_status_pane
+	{
+	panes =
+		{
+		SPANE_PANE
+			{
+			id = EEikStatusPaneUidTitle;
+			type = EAknCtTitlePane;
+			resource = r_setting_list_title_resource;
+			}
+		};
+	}
+RESOURCE TITLE_PANE r_setting_list_title_resource
+	{
+	txt = STR_SettingListView_3;
+	}
+RESOURCE LISTBOX r_setting_list_list_box
+	{
+	flags = EAknListBoxSelectionList;
+	}
+RESOURCE CBA r_setting_list_control_pane
+	{
+	buttons =
+		{
+		CBA_BUTTON
+			{
+			id = EAknSoftkeyOptions;
+			txt = STR_SettingListView_1;
+			},
+		CBA_BUTTON
+			{
+			id = ESettingListViewControlPaneRightId;
+			txt = STR_SettingListView_2;
+			}
+		};
+	}
+RESOURCE MENU_PANE r_setting_list_menu_pane1_menu_pane
+	{
+	items =
+		{
+		MENU_ITEM
+			{
+			command = ESettingListView_MenuItemCommand;
+			txt = STR_SettingListView_4;
+			},
+		MENU_ITEM
+			{
+			command = ESettingListView_MenuItem2Command;
+			txt = STR_SettingListView_17;
+			}
+		};
+	}
+RESOURCE ARRAY r_setting_list_listbox_item1
+	{
+	items =
+		{
+		LBUF
+			{
+			txt = STR_SettingListView_7;
+			},
+		LBUF
+			{
+			txt = STR_SettingListView_8;
+			}
+		};
+	}
+RESOURCE ARRAY r_setting_list_listbox_item2
+	{
+	items =
+		{
+		LBUF
+			{
+			txt = STR_SettingListView_11;
+			},
+		LBUF
+			{
+			txt = STR_SettingListView_12;
+			}
+		};
+	}
+RESOURCE TBUF r_on
+	{buf=STR_SettingListView_12;}
+		RESOURCE TBUF r_off
+	{buf=STR_SettingListView_13;}
+		RESOURCE TBUF r_select_iap_dialog_title
+	{buf=STR_SettingListView_14;}
+		RESOURCE TBUF r_save_query_text
+	{buf=STR_SettingListView_15;}
+		RESOURCE TBUF r_empty_iap
+	{buf=STR_SettingListView_8;}
+		RESOURCE TBUF r_setting_unvailable_need_restart
+		{buf=STR_SettingListView_9;}
+				RESOURCE TBUF r_new_plugin_installed
+	{buf=STR_SettingListView_10;}

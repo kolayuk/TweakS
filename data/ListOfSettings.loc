@@ -1,0 +1,25 @@
+/*
+========================================================================
+ Name        : ListOfSettings.loc
+ Author      : Kolay
+ Copyright   : Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+#ifdef LANGUAGE_16
+#include "ListOfSettings.l16"
+#endif
+#ifdef LANGUAGE_01
+#include "ListOfSettings.l01"
+#endif
+#ifdef LANGUAGE_26
+#include "ListOfSettings.l26"
+#endif
+#ifdef LANGUAGE_31
+#include "ListOfSettings.l31"
+#endif

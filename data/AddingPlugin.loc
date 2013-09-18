@@ -1,0 +1,26 @@
+/*
+========================================================================
+ Name        : AddingPlugin.loc
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+#ifdef LANGUAGE_16
+#include "AddingPlugin.l16"
+#endif
+#ifdef LANGUAGE_01
+#include "AddingPlugin.l01"
+#endif
+#ifdef LANGUAGE_26
+#include "AddingPlugin.l26"
+#endif
+#ifdef LANGUAGE_31
+#include "AddingPlugin.l31"
+#endif

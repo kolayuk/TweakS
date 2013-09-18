@@ -1,0 +1,19 @@
+/*
+========================================================================
+ Name        : TweakS.l16
+ Author      : Kolay
+ Copyright   : TweakS - it is a tweaker for Symbian OS
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Russian (16)
+#define STR_TweakSApplication_1 ""
+#define STR_TweakSApplication_2 ""
+#define STR_TweakSApplication_3 "TweakS"
+#define STR_TweakSApplication_4 "TweakS"

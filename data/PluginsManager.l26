@@ -1,0 +1,29 @@
+/*
+========================================================================
+ Name        : PluginsManager.l16
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Slovak (26)
+
+#define STR_PluginsManagerView_3 "Správca doplnkov"
+#define STR_PluginsManagerView_1 "Voľby"
+#define STR_PluginsManagerView_2 "Späť"
+#define STR_PluginsManagerView_10 "Aktivovať"
+#define STR_PluginsManagerView_11 "Zmazať"
+#define STR_PluginsManagerView_12 "Nainštalovať"
+#define STR_PluginsManagerView_14 "Aktívny"
+#define STR_PluginsManagerView_15 "Neaktívny"
+#define STR_PluginsManagerView_16 "Nie je nainštalovaný"
+#define STR_PluginsManagerView_17 "Dostupná aktualizácia"
+#define STR_PluginsManagerView_18 "Sťahovanie doplnku..."
+#define STR_PluginsManagerView_9 "Deaktivovať"
+#define STR_PluginsManagerView_4 "Informácie"

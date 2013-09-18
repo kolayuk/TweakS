@@ -1,0 +1,26 @@
+/*
+========================================================================
+ Name        : PluginsList.loc
+ Author      : Kolay
+ Copyright   : TweakS - it is a tweaker for Symbian OS
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+#ifdef LANGUAGE_16
+#include "PluginsList.l16"
+#endif
+#ifdef LANGUAGE_01
+#include "PluginsList.l01"
+#endif
+#ifdef LANGUAGE_26
+#include "PluginsList.l26"
+#endif
+#ifdef LANGUAGE_31
+#include "PluginsList.l31"
+#endif

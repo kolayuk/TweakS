@@ -1,0 +1,26 @@
+#include <RegistryInfo.rh>
+
+RESOURCE REGISTRY_INFO r_registry
+{
+    dll_uid = 0xE9066A15; // should match name of this file
+    interfaces =
+    {
+        INTERFACE_INFO
+        {
+            interface_uid = 0x101F7D87;  // const for all Data Recognizers
+            implementations =
+            {
+                IMPLEMENTATION_INFO
+                {
+                    implementation_uid = 0xE9066A15; // unique implementation uid
+                    version_no = 1;
+                    display_name = "TweakSRecognizer";
+                    default_data = "";
+                    opaque_data = "";
+                }
+            };
+        }
+    };
+}
+
+// End of File

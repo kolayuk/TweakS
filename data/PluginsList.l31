@@ -1,0 +1,47 @@
+/*
+========================================================================
+ Name        : PluginsList.l16
+ Author      : Kolay
+Translate  : 南浦月(Nanpuyue)
+ Copyright   : TweakS - it is a tweaker for Symbian OS
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Chinese  (31)
+CHARACTER_SET UTF8
+
+#define STR_PluginsListView_1 "选项"
+#define STR_PluginsListView_2 "退出"
+#define STR_PluginsListView_3 "TweakS"
+#define STR_PluginsListView_7 "退出"
+#define STR_PluginsListView_4 "选择"
+#define STR_PluginsListView_8 "关于 - TweakS v.1.0.5"
+#define STR_SMSWarningHeader "捐赠 - TweakS"
+#define STR_SMSWarningText "注意！短信发送至%S，资费为%S，\n您的国家或地区：%S\n继续发送？"
+#define STR_SMSSelectCountry "选择国家或地区："
+#define STR_SMSSelectOperator "选择您的运营商："
+#define STR_About "TweakS - Tweak your Smart\n 开发: Kolay&CODeRUS\n Support: kolayuk@mail.ru\n 官网: http://kolaysoft.ru/TweakS/\n 捐赠:\n"
+#define STR_PluginsListView_10 "未安装插件！\n请安装插件后使用本程序。"
+#define STR_PluginsListView_13 "已是最新版本，您要重新下载安装吗？"
+#define STR_PluginsListView_14 "有可用更新，下载？\n"
+#define STR_CBDialogTitle "输入您的建议："
+#define STR_PluginsListView_15 "下载中…"
+#define STR_PluginsListView_12 "更新"
+#define STR_PluginsListView_17 "设置"
+#define STR_PluginsListView_19 "设置"
+#define STR_PluginsListView_21 "管理插件"
+#define STR_PluginsListView_22 "关于"
+#define STR_PluginsListView_24 "帮助"
+#define STR_PluginsListView_25 "更新"
+#define STR_MoreApps "More applications"
+#define STR_PluginsListView_6 "关于"
+#define STR_PluginsListView_9 "反馈"
+#define STR_PluginsListView_5 "捐赠"
+#define STR_PluginsListView_11 "Unlock all"
+#define STR_PluginsListView_16 "Export"

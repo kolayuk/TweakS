@@ -1,0 +1,366 @@
+/*
+========================================================================
+ Name        : ListOfSettings.rssi
+ Author      : Kolay
+ Copyright   : Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+#include "ListOfSettings.hrh"
+#include "ListOfSettings.loc"
+#include <CommonDialogs.rh>
+#include <avkon.rsg>
+
+RESOURCE AVKON_VIEW r_list_of_settings_list_of_settings_view
+	{
+	cba = r_list_of_settings_control_pane;
+	menubar = r_list_of_settings_options_menu;
+	toolbar = 0;
+	}
+RESOURCE MENU_BAR r_list_of_settings_options_menu
+	{titles =
+			{
+			MENU_TITLE
+				{
+				menu_pane = r_list_of_settings_menu_pane1_menu_pane;
+				}
+			};
+
+	}
+RESOURCE STATUS_PANE_APP_MODEL r_list_of_settings_status_pane
+	{
+	panes =
+		{
+		SPANE_PANE
+			{
+			id = EEikStatusPaneUidTitle;
+			type = EAknCtTitlePane;
+			resource = r_list_of_settings_title_resource;
+			}
+		};
+	}
+RESOURCE TITLE_PANE r_list_of_settings_title_resource
+	{
+	txt = STR_ListOfSettingsView_3;
+	}
+RESOURCE LISTBOX r_list_of_settings_list_box
+	{
+	flags = EAknListBoxSelectionList;
+	}
+RESOURCE MENU_PANE r_list_of_settings_menu_pane1_menu_pane
+	{
+	items =
+		{
+		MENU_ITEM
+			{
+			command = EListOfSettingsView_MenuItemCommand;
+			txt = STR_ListOfSettingsView_4;
+			},
+		MENU_ITEM
+			{
+			command = EListOfSettingsView_MenuItem1Command;
+			txt = STR_ListOfSettingsView_5;
+			},
+		MENU_ITEM
+			{
+			command = EListOfSettingsView_MenuItem5Command;
+			txt = STR_ListOfSettingsView_12;
+			},
+		MENU_ITEM
+			{
+			command = EListOfSettingsView_MenuItem4Command;
+			txt = STR_ListOfSettingsView_8;
+			},
+		MENU_ITEM
+			{
+			command = EAllToDefault;
+			txt = STR_AllToDefault;
+			},
+		MENU_ITEM
+			{
+			command = EListOfSettingsView_MenuItem2Command;
+			txt = STR_ListOfSettingsView_7;
+			},
+		MENU_ITEM
+			{
+			command = EListOfSettingsView_MenuItem3Command;
+			txt = STR_ListOfSettingsView_6;
+			}
+		};
+	}
+RESOURCE CBA r_list_of_settings_control_pane
+	{
+	buttons =
+		{
+		CBA_BUTTON
+			{
+			id = EAknSoftkeyOptions;
+			txt = STR_ListOfSettingsView_1;
+			},
+		CBA_BUTTON
+			{
+			id = EAknSoftkeyExit;
+			txt = STR_ListOfSettingsView_2;
+			}
+		};
+	}
+
+RESOURCE DIALOG R_NUMBER_QUERY
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY
+                {
+                layout = ENumberLayout;
+                control = AVKON_INTEGER_EDWIN
+                    {
+                    min = 0;
+                    max = 9;
+                    };
+                };
+            }
+        };
+    }
+
+
+RESOURCE DIALOG R_TEXT_QUERY
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items=
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY 
+                { 
+                layout = EDataLayout;
+                control = EDWIN
+                    { 
+                    flags= EEikEdwinNoHorizScrolling | EEikEdwinResizable; 
+                    maxlength = 255; 
+                    width = 4; 
+                    lines = 1; 
+                    };
+                };
+            }
+        };
+    }
+RESOURCE DIALOG R_FLOAT_QUERY
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY
+                {
+                layout = ENumberLayout;
+                control = AVKON_INTEGER_EDWIN
+                    {
+                    };
+                };
+            }
+        };
+    }
+
+RESOURCE TBUF R_RESTART_NEEDED_HEADER
+	{buf=STR_ListOfSettingsView_9;}
+			RESOURCE TBUF R_RESTART_NEEDED_TEXT
+	{buf=STR_ListOfSettingsView_10;}
+
+
+RESOURCE DIALOG r_num_uid_selection_list
+{
+  flags = EAknDialogSelectionList;
+  buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+  items =
+  {
+    DLG_LINE
+    {
+      type = EAknCtSingleListBox;
+      id = ESelectionListControl;
+      control = LISTBOX
+      {
+	flags = EAknListBoxSelectionList;
+      };
+    }, 
+    DLG_LINE 
+    {
+      itemflags = EEikDlgItemNonFocusing;
+      id = EFindControl;
+      type = EAknCtSelectionListFixedFind; 
+    }
+  };
+}
+
+RESOURCE TBUF r_file_selecter_folder_select
+	{buf=STR_ListOfSettingsView_11;}
+				
+
+	/*
+RESOURCE DIALOG r_dialog
+{
+flags = EAknDialogGenericFullScreen;
+buttons = R_AVKON_SOFTKEYS_OK_BACK;
+items =
+    {
+    DLG_LINE
+        {
+        type = EAknCtSlider;
+        id=ESlider;
+        control= SLIDER
+        	{
+			layout = EAknSettingsItemSliderLayout;
+			minvalue = 0;	
+			maxvalue = 5;
+			step = 1;
+			valuetype = EAknSliderValueDecimal;
+        	};
+        }
+    };
+}
+*/
+RESOURCE TBUF r_file_selecter_folder
+	{buf=STR_ListOfSettingsView_14;}
+			RESOURCE TBUF r_file_selecter_file
+	{buf=STR_ListOfSettingsView_13;}
+		RESOURCE TBUF r_option_unvailable
+	{buf=STR_ListOfSettingsView_15;}
+		RESOURCE TBUF r_plugin_not_work
+	{buf=STR_ListOfSettingsView_16;}
+		RESOURCE TBUF r_binary_item_txt
+	{buf=STR_BinChange;}
+		RESOURCE TBUF r_listbox_empty
+	{buf=STR_ListboxPromt;}
+		
+	STRUCT SLIDERCONTROL
+{
+LTEXT txt;
+}
+
+RESOURCE DIALOG r_slider_dialog
+    {
+    flags = EAknDialogGenericFullScreen;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = KAknCtLastControlId;
+            id = KMyCustomCtlId;
+            control = SLIDERCONTROL
+            			{
+            			txt="Txt";
+            			};
+            }
+        };
+    }
+RESOURCE DIALOG r_file_dialog
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        AVKON_LIST_QUERY_DLG_LINE
+            {
+            control= AVKON_LIST_QUERY_CONTROL
+                {
+				listtype = EAknCtSingleGraphicPopupMenuListBox;
+				listbox = AVKON_LIST_QUERY_LIST
+					{
+					};
+				heading = "Select";				
+			    };
+            }
+        };
+    }
+RESOURCE TBUF r_delcre
+	{buf=STR_DelCRE;}
+#ifdef __S60_50__
+RESOURCE AVKON_MULTISELECTION_LIST_QUERY r_sisxui_options_query
+    {
+    flags = EGeneralQueryFlags;
+    softkeys = r_swiui_softkeys_ok_cancel__mark;
+    items =
+        {
+        AVKON_MULTISELECTION_LIST_QUERY_DLG_LINE 
+            {
+            control = AVKON_LIST_QUERY_CONTROL
+                {
+                listtype = EAknCtSingleGraphicPopupMenuListBox;
+                listbox = AVKON_MULTISELECTION_LIST_QUERY_LIST
+                    {
+                    array_id = r_sisxui_empty_array;
+                    };
+                };
+            }
+        };
+    }
+RESOURCE ARRAY r_sisxui_empty_array
+    {
+    items=
+        {
+        LBUF { txt=""; }
+        };
+    }
+
+RESOURCE CBA r_swiui_softkeys_ok_cancel__mark
+    {
+    buttons =
+        {
+        CBA_BUTTON {id=EAknSoftkeyYes; txt="OK";},
+        CBA_BUTTON {id=EAknSoftkeyCancel; txt= "Cancel";},
+        CBA_BUTTON {id=EAknSoftkeyMark; txt="";}
+        };
+    }
+
+#else
+RESOURCE DIALOG r_txt_uid_selection_list
+	{
+	 flags = EAknDialogMarkableList | EAknListBoxLoopScrolling; 
+	 buttons = r_swiui_softkeys_ok_cancel;
+	 items = 
+	 {
+		  DLG_LINE 
+		  {
+				type = EAknCtSingleListBox;
+				id = ESelectionListControl;
+				control = LISTBOX
+				{
+				  flags = EAknListBoxStylusMultiselectionList;
+				};
+		  }, 
+		    DLG_LINE 
+		    {
+		      itemflags = EEikDlgItemNonFocusing;
+		      id = EFindControl;
+		      type = EAknCtSelectionListFixedFind; 
+		    }
+	 };
+	}
+
+RESOURCE CBA r_swiui_softkeys_ok_cancel
+    {
+    buttons =
+        {
+        CBA_BUTTON {id=EAknSoftkeyYes; txt="OK";},
+        CBA_BUTTON {id=EAknSoftkeyCancel; txt= "Cancel";}
+        };
+    }
+#endif

@@ -1,0 +1,130 @@
+/*
+========================================================================
+ Name        : PluginsManager.rssi
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2010
+
+ Description : 
+========================================================================
+*/
+#include "PluginsManager.hrh"
+#include "PluginsManager.loc"
+
+RESOURCE AVKON_VIEW r_plugins_manager_plugins_manager_view
+	{
+	cba = r_plugins_manager_control_pane;
+	menubar = r_plugins_manager_options_menu;
+	toolbar = 0;
+	}
+RESOURCE MENU_BAR r_plugins_manager_options_menu
+	{titles =
+			{
+			MENU_TITLE
+				{
+				menu_pane = r_plugins_manager_menu_pane1_menu_pane;
+				}
+			};
+
+	}
+RESOURCE STATUS_PANE_APP_MODEL r_plugins_manager_status_pane
+	{
+	panes =
+		{
+		SPANE_PANE
+			{
+			id = EEikStatusPaneUidTitle;
+			type = EAknCtTitlePane;
+			resource = r_plugins_manager_title_resource;
+			}
+		};
+	}
+RESOURCE TITLE_PANE r_plugins_manager_title_resource
+	{
+	txt = STR_PluginsManagerView_3;
+	}
+RESOURCE LISTBOX r_plugins_manager_list_box
+	{
+	flags = EAknListBoxSelectionList;
+	}
+RESOURCE CBA r_plugins_manager_control_pane
+	{
+	buttons =
+		{
+		CBA_BUTTON
+			{
+			id = EAknSoftkeyOptions;
+			txt = STR_PluginsManagerView_1;
+			},
+		CBA_BUTTON
+			{
+			id = EPluginsManagerViewControlPaneRightId;
+			txt = STR_PluginsManagerView_2;
+			}
+		};
+	}
+RESOURCE MENU_PANE r_plugins_manager_menu_pane1_menu_pane
+	{
+	items =
+		{
+		MENU_ITEM
+			{
+			command = EPluginsManagerView_MenuItem5Command;
+			txt = STR_PluginsManagerView_4;
+			},
+		MENU_ITEM
+			{
+			command = EPluginsManagerView_MenuItemCommand;
+			txt = STR_PluginsManagerView_9;
+			},
+		MENU_ITEM
+			{
+			command = EPluginsManagerView_MenuItem1Command;
+			txt = STR_PluginsManagerView_10;
+			},
+		MENU_ITEM
+			{
+			command = EPluginsManagerView_MenuItem2Command;
+			txt = STR_PluginsManagerView_11;
+			},
+		MENU_ITEM
+			{
+			command = EPluginsManagerView_MenuItem3Command;
+			txt = STR_PluginsManagerView_12;
+			}
+		};
+	}
+RESOURCE TBUF r_plugin_active
+	{buf=STR_PluginsManagerView_14;}
+					RESOURCE TBUF r_plugin_disabled
+	{buf=STR_PluginsManagerView_15;}
+					RESOURCE TBUF r_plugin_not_installed
+	{buf=STR_PluginsManagerView_16;}
+					RESOURCE TBUF r_plugin_update
+	{buf=STR_PluginsManagerView_17;}
+					
+	RESOURCE DIALOG r_download_wait_dialog
+    {
+    flags   = EAknWaitNoteFlags;
+    buttons = R_AVKON_SOFTKEYS_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type    = EAknCtNote;
+            id      = EPluginManagerWait;
+            control = AVKON_NOTE
+                {
+                layout         = EWaitLayout;
+                singular_label = STR_PluginsManagerView_18;
+                plural_label   = "";
+                animation      = R_QGN_GRAF_WAIT_BAR_ANIM;
+                };
+            }
+        };
+    }
+

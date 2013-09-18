@@ -1,0 +1,50 @@
+
+TARGET			TweakS.exe
+UID			   0x100039CE 0xE9066A16
+VENDORID	  	  0
+TARGETTYPE		exe
+EPOCSTACKSIZE	 0xf000
+EPOCHEAPSIZE 0x1000 0x600000
+COMPRESSTARGET
+
+SYSTEMINCLUDE \epoc32\include \epoc32\include\variant \epoc32\include\ecom
+USERINCLUDE	   ..\inc ..\data
+
+SOURCEPATH		..\data
+START RESOURCE	TweakS.rss
+HEADER
+TARGETPATH resource\apps
+END //RESOURCE
+
+START RESOURCE	TweakS_reg.rss
+TARGETPATH 	  \private\10003a3f\apps
+END //RESOURCE
+
+LIBRARY			euser.lib apparc.lib cone.lib eikcore.lib avkon.lib
+LIBRARY			commonengine.lib efsrv.lib estor.lib eikcoctl.lib eikdlg.lib 
+LIBRARY			eikctl.lib bafl.lib fbscli.lib aknnotify.lib aknicon.lib
+LIBRARY			etext.lib gdi.lib egul.lib insock.lib
+LIBRARY			ecom.lib InetProtUtil.lib http.lib esock.lib
+LIBRARY			centralrepository.lib PlatformEnv.lib apgrfx.lib commondialogs.lib eikdlg.lib hlplch.lib
+LIBRARY         commdb.lib charconv.lib commonui.lib apmime.lib ezip.lib flogger.lib
+LIBRARY			sendas2.lib
+LIBRARY 		aknskins.lib aknskinsrv.lib aknswallpaperutils.lib ws32.lib bitgdi.lib imageconversion.lib sysutil.lib
+LANG 				16 01 26 31
+
+START BITMAP	TweakS.mbm
+HEADER
+TARGETPATH		\resource\apps
+SOURCEPATH		..\gfx
+SOURCE	c12,1	list_icon.bmp list_icon_mask.bmp
+END
+
+SOURCEPATH		..\src
+
+#ifdef ENABLE_ABIV2_MODE
+DEBUGGABLE_UDEBONLY
+#endif
+
+SOURCE PluginsList.cpp PluginsListView.cpp TweakSDocument.cpp TweakSApplication.cpp TweakSAppUi.cpp ListOfSettingsView.cpp ListOfSettings.cpp FileSelectDialog.cpp SliderDialog.cpp
+SOURCEPATH ..\src
+SOURCE ClientEngine.cpp PluginsManager.cpp PluginsManagerView.cpp textutils.cpp SettingListView.cpp SettingList.cpp CallBackDialog.cpp SmsSender.cpp AddingPlugin.cpp AddingPluginView.cpp
+CAPABILITY CommDD DiskAdmin LocalServices Location MultimediaDD NetworkControl NetworkServices PowerMgmt ProtServ ReadDeviceData ReadUserData SurroundingsDD SwEvent TrustedUI UserEnvironment WriteDeviceData WriteUserData AllFiles
